@@ -1,0 +1,5 @@
+run/
+*.nc
+*.meta
+*.data
+build/
