@@ -15,17 +15,12 @@
 # Time stepping parameters
  &PARM03
  nIter0  = 0,
- nTimeSteps = 100,
- deltaTtracer= 86400.0,
- deltaTClock = 86400.0,
- pChkptFreq=31104000.,
- chkptFreq= 31104000.,
- dumpFreq=  2592000.,
- taveFreq=  311040000.,
+ nTimeSteps = 2400,
+ deltaT= 3600.0,
+ pChkptFreq=864000.0,
+ dumpFreq=  86400.0,
+ taveFreq=  86400.0,
  monitorFreq= 1.,
- periodicExternalForcing=.TRUE.,
- externForcingPeriod=2592000.,
- externForcingCycle=31104000.,
  &
 #
 # Gridding parameters
