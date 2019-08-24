@@ -4,6 +4,7 @@
 #
 # Continuous equation parameters
  &PARM01
+ exactConserv=.TRUE.,
  &
 #
 # Elliptic solver parameters
@@ -35,5 +36,4 @@
 #
 # Input datasets
  &PARM05
- bathyFile=      'bathymetry.bin',
  &
