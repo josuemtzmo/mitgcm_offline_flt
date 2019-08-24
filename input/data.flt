@@ -5,5 +5,5 @@
  flt_int_traj =  10800.,
  flt_int_prof =  10800.,
  flt_noise    =  0.0,
- flt_file     =  'flt_CM2p6_global_hex.bin',
+ flt_file     =  'flt_global_hex_1deg.bin',
  &

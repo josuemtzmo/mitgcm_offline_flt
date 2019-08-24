@@ -8,7 +8,7 @@ queue: express
 model: mitgcm
 shortpath: /short/v45
 exe: mitgcm_HR_satellite_P_release
-input: global_lowR_test
+input: global_particle_release
 
 #collate: True
 #collate_walltime: 1:00:00
