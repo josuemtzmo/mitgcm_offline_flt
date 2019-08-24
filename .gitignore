@@ -1,5 +1,7 @@
-run/
 *.nc
 *.meta
 *.data
 build/
+MIT_LAVD.*
+mitgcm*
+run/work/
