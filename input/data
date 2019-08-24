@@ -26,11 +26,11 @@
 # Gridding parameters
  &PARM04
  usingSphericalPolarGrid=.TRUE.,
- delR=  10., 
- ygOrigin=-89.875,
- dxSpacing=0.25,
- xgOrigin=0.125,
- dySpacing=0.25,
+ delR      =  10., 
+ ygOrigin  = -89.875,
+ dxSpacing = 0.25,
+ xgOrigin  = 0.125,
+ dySpacing = 0.25,
  &
 #
 # Input datasets
