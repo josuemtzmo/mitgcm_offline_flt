@@ -7,7 +7,7 @@
   offlineIter0=0,
   deltaToffline=86400.,
   offlineForcingPeriod=86400.,
-  offlineForcingCycle=31536000.,
+  offlineForcingCycle=30585600.,
 #  offlineForcingCycle=8640000.,
  &
 
