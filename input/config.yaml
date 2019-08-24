@@ -1,0 +1,15 @@
+ncpus: 1
+mem: 10GB
+walltime: 00:30:00
+jobname: MIT_LAVD
+project: v45
+queue: express
+
+model: mitgcm
+shortpath: /short/v45
+exe: mitgcm_LowR_test
+input: global_lowR_test
+
+#collate: True
+#collate_walltime: 1:00:00
+#collate_mem: 1GB

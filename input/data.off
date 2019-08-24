@@ -1,8 +1,6 @@
  &OFFLINE_PARM01
-  UvelFile= 'input_off/uVeltave',
-  VvelFile= 'input_off/vVeltave',
-  WvelFile= 'input_off/wVeltave',
-# ConvFile= 'input_off/Convtave',
+  UvelFile= 'input_off/U_sat',
+  VvelFile= 'input_off/V_sat',
  &
 
  &OFFLINE_PARM02

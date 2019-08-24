@@ -1,0 +1,16 @@
+#!/bin/bash
+mlcompileMIT
+
+code_root=/home/156/jm5970/experiments/particle_release_extp/code
+dir_root=/home/156/jm5970/models/MITgcm
+
+cd /home/156/jm5970/models/MITgcm/build/particle_relase
+
+rm -r *
+
+# ../../../../models/MITgcm/tools/genmake2 -mods=../code -rootdir /home/156/jm5970/models/MITgcm -mpi
+
+/short/v45/jm5970/models/MITgcm/tools/genmake2 -mods=${code_root} -rootdir ${dir_root} -mpi
+
+make depend
+make -j 8
