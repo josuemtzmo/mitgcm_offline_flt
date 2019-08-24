@@ -15,13 +15,13 @@
 #
 # Time stepping parameters
  &PARM03
- nIter0  = 0,
- nTimeSteps = 1000,
- deltaT= 86400.0,
- pChkptFreq=864000.0,
- dumpFreq=  86400.0,
- taveFreq=  86400.0,
- monitorFreq= 1.,
+ nIter0      =  0,
+ nTimeSteps  =  1000,
+ deltaT      =  86400.0,
+ pChkptFreq  =  2592000.0,
+ dumpFreq    =  86400.0,
+ taveFreq    =  86400.0,
+ monitorFreq =  1.,
  &
 #
 # Gridding parameters
