@@ -1,4 +1,4 @@
-ncpus: 24
+ncpus: 32
 mem: 200GB
 walltime: 00:30:00
 jobname: MIT_LAVD
