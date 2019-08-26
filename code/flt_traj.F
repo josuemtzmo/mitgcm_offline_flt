@@ -21,6 +21,7 @@ C     == global variables ==
 #include "EEPARAMS.h"
 #include "PARAMS.h"
 #include "DYNVARS.h"
+#include "GRID.h"
 #include "FLT_SIZE.h"
 #include "FLT.h"
 #include "FLT_BUFF.h"
@@ -42,17 +43,13 @@ C     !FUNCTIONS:
 
 C     !LOCAL VARIABLES:
       INTEGER bi, bj, nFlds
-      INTEGER ip, kp, ii
+      INTEGER ip, kp, ii, i, j
       _RL ix, jy, i0x, j0y, xx, yy, zz
-      _RL uu, vv, tt, ss, pp
-C     IF (flt_outputDymVar) THEN
-      _RL vort, ttke 
+      _RL uu, vv, tt, ss, pp, ttke, vort
+      _RL KE(1-OLx:sNx+OLx,1-OLy:sNy+OLy,Nr,nSx,nSy)
       _RL vort3(1-OLx:sNx+OLx,1-OLy:sNy+OLy)
-      _RL KE(1-OLx:sNx+OLx,1-OLy:sNy+OLy)
-C     ENDIF
-
       INTEGER imax
-      PARAMETER (imax=14)
+      PARAMETER (imax=15)
       _RL tmp(imax)
       _RL npart_read, npart_times
       _RS dummyRS(1)
@@ -70,10 +67,24 @@ C--   set number of fields to write
       nFlds = 0
       IF ( flt_selectTrajOutp.GE.1 ) nFlds = nFlds + 8
       IF ( flt_selectTrajOutp.GE.2 ) nFlds = nFlds + 5
-      
-      IF ( flt_outputDymVar ) THEN
-         CALL MON_VORT3( myIter, myThid )
-         CALL MON_KE( myIter, myThid )
+      IF ( flt_selectTrajOutp.GE.3 ) THEN 
+        nFlds = nFlds + 2
+        KE = (1/2)*((uVel*uVel) + (vVel*vVel))
+        DO bj=myByLo(myThid),myByHi(myThid)
+          DO bi=myBxLo(myThid),myBxHi(myThid)
+            DO j=2,sNy
+              DO i=2,sNx
+                vort3(i,j) = recip_rAz(i,j,bi,bj)*(
+     &               vVel( i ,j,1,bi,bj)*dyC( i ,j,bi,bj)
+     &               -vVel(i-1,j,1,bi,bj)*dyC(i-1,j,bi,bj)
+     &               -uVel(i, j ,1,bi,bj)*dxC(i, j ,bi,bj)
+     &               +uVel(i,j-1,1,bi,bj)*dxC(i,j-1,bi,bj)
+     &                                                    )
+C               Lool at file mon_vort3.F
+              ENDDO
+            ENDDO
+          ENDDO
+        ENDDO
       ENDIF
 
 C--   check buffer size
@@ -146,20 +157,21 @@ C-- jmc: not sure if this is right but added to avoid Pb in FLT_BILINEAR:
               CALL FLT_BILINEAR2D (ix,jy,pp,etaN,     0,bi,bj,myThid)
               CALL FLT_BILINEAR  (ix,jy,tt,theta, kp,0,bi,bj,myThid)
               CALL FLT_BILINEAR  (ix,jy,ss,salt,  kp,0,bi,bj,myThid)
-              CALL FLT_BILINEAR  (ix,jy,vort,vort3,  kp,0,bi,bj,myThid)
-              CALL FLT_BILINEAR  (ix,jy,ttke,ke,  kp,0,bi,bj,myThid)
               tmp( 9) = pp
               tmp(10) = uu
               tmp(11) = vv
               
               tmp(12) = tt
               tmp(13) = ss
-              tmp(14) = vort
-              tmp(15) = ttke
-
-C              IF ( flt_outputDymVar ) THEN
-C              ELSE
-C              ENDIF
+              IF ( ( flt_selectTrajOutp.GE.3 ) ) THEN
+                CALL FLT_BILINEAR  (ix,jy,vort,vort3,
+     &                               kp,0,bi,bj,myThid)
+                CALL FLT_BILINEAR  (ix,jy,ttke, KE, 
+     &                               kp,1,bi,bj,myThid)
+                
+                tmp(14) = vort
+                tmp(15) = ttke
+              ENDIF
 
             ELSEIF ( flt_selectTrajOutp.GE.2 ) THEN
               tmp( 9) = flt_nan
@@ -167,7 +179,6 @@ C              ENDIF
               tmp(11) = flt_nan
               tmp(12) = flt_nan
               tmp(13) = flt_nan
-              tmp(14) = flt_nan
             ENDIF
 
             DO ii=1,nFlds
@@ -202,7 +213,7 @@ C (1) read actual number floats from file (if exists)
             npart_times = tmp(5)
             ii = NINT(tmp(7))
 C-       for backward compatibility with old trajectory files:
-            IF ( ii.EQ.0 ) ii = 13
+            IF ( ii.EQ.0 ) ii = 15
             IF ( ii.NE.nFlds ) THEN
               WRITE(msgBuf,'(A,I4,A)')
      &            'FLT_TRAJ: nFlds=', nFlds,' different from'

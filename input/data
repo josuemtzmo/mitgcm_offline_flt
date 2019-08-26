@@ -4,6 +4,8 @@
 #
 # Continuous equation parameters
  &PARM01
+ readBinaryPrec=32,
+ writeBinaryPrec=64,
  &
 #
 # Elliptic solver parameters
