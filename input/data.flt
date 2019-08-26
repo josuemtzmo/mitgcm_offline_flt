@@ -6,4 +6,6 @@
  flt_int_prof =  10800.,
  flt_noise    = 0.0,
  flt_file     = 'flt_CM2p6_global_hex.bin',
+ flt_outputDymVar = .TRUE.,
+ flt_selectProfOutp = 2,
  &

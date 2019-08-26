@@ -68,8 +68,8 @@ class ReadParticles():
         return self.df_tracks
 
 
-    def mitgcmtrack2pd(self,numcols=13):
-        cols_name=['x','y','z','i','j','k','p','u','v','t','s','c1','c2','c3'
+    def mitgcmtrack2pd(self,numcols=15):
+        cols_name=['x','y','z','i','j','k','p','u','v','t','s','vort','ke','c3'
         ,'c4','c5','c6','c7','c8','c9','c10','c11','c12','c13','c14','c15','c16']
         if numcols > len(cols_name):
             raise ValueError('''Most of the tracking data is contained in the 
