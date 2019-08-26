@@ -67,6 +67,7 @@ C--   set number of fields to write
       nFlds = 0
       IF ( flt_selectTrajOutp.GE.1 ) nFlds = nFlds + 8
       IF ( flt_selectTrajOutp.GE.2 ) nFlds = nFlds + 5
+C--   Modified sction to write KE and vorticity along the particle track.
       IF ( flt_selectTrajOutp.GE.3 ) THEN 
         nFlds = nFlds + 2
         KE = ((uVel*uVel) + (vVel*vVel))
@@ -74,13 +75,14 @@ C--   set number of fields to write
           DO bi=myBxLo(myThid),myBxHi(myThid)
             DO j=2,sNy
               DO i=2,sNx
-                vort3(i,j) = recip_rAz(i,j,bi,bj)*(
+C                vort3(i,j) = recip_rAz(i,j,bi,bj)*(
+                vort3(i,j) = (
      &               vVel( i ,j,1,bi,bj)*dyC( i ,j,bi,bj)
      &               -vVel(i-1,j,1,bi,bj)*dyC(i-1,j,bi,bj)
      &               -uVel(i, j ,1,bi,bj)*dxC(i, j ,bi,bj)
      &               +uVel(i,j-1,1,bi,bj)*dxC(i,j-1,bi,bj)
      &                                                    )
-C               Lool at file mon_vort3.F
+C               Look at file mon_vort3.F
               ENDDO
             ENDDO
           ENDDO
