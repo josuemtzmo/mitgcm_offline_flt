@@ -6,4 +6,5 @@
  flt_int_prof =  10800.,
  flt_noise    =  0.0,
  flt_file     =  'flt_global_hex_1deg.bin',
+ flt_selectProfOutp = 2,
  &
