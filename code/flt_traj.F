@@ -69,7 +69,7 @@ C--   set number of fields to write
       IF ( flt_selectTrajOutp.GE.2 ) nFlds = nFlds + 5
       IF ( flt_selectTrajOutp.GE.3 ) THEN 
         nFlds = nFlds + 2
-        KE = (1/2)*((uVel*uVel) + (vVel*vVel))
+        KE = ((uVel*uVel) + (vVel*vVel))
         DO bj=myByLo(myThid),myByHi(myThid)
           DO bi=myBxLo(myThid),myBxHi(myThid)
             DO j=2,sNy
