@@ -1,6 +1,6 @@
-ncpus: 32
-mem: 200GB
-walltime: 00:30:00
+ncpus: 64
+mem: 300GB
+walltime: 03:00:00
 jobname: MIT_LAVD
 project: v45
 queue: express
