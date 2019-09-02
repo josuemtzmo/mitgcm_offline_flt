@@ -4,10 +4,9 @@
  &
 
  &OFFLINE_PARM02
-  offlineIter0=0,
-  deltaToffline=86400.,
-  offlineForcingPeriod=86400.,
-  offlineForcingCycle=30585600.,
-#  offlineForcingCycle=8640000.,
+  offlineIter0 = 0,
+  deltaToffline = 86400.,
+  offlineForcingPeriod = 86400.,
+  offlineForcingCycle = 2592000.,
  &
 
