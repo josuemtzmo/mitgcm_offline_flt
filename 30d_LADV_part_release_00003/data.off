@@ -1,0 +1,13 @@
+ &OFFLINE_PARM01
+  UvelFile= '30d/30d_slice_chunk_00003/U_sat',
+  VvelFile= '30d/30d_slice_chunk_00003/V_sat',
+ &
+
+ &OFFLINE_PARM02
+  offlineIter0=0,
+  deltaToffline=86400.,
+  offlineForcingPeriod=86400.,
+  offlineForcingCycle=30585600.,
+#  offlineForcingCycle=8640000.,
+ &
+
