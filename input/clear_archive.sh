@@ -10,6 +10,6 @@ experiment_path={0}
 
 mkdir '$archive_path/$experiment_path'
 
-rsync -qar ./* '$archive_path/$experiment_path'
+rsync -qar --remove-source-files ./* '$archive_path/$experiment_path'
 
 
