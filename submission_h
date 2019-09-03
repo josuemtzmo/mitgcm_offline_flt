@@ -1,0 +1,7 @@
+1689997.r-man2
+qsub -q express -P v45 -l walltime=03:00:00 -l ncpus=128 -l mem=300GB -N PR_LAV_00000 -l wd -j n -v LD_LIBRARY_PATH=/apps/python3/3.6.2/lib,PYTHONPATH=/apps/payu/0.11.2/lib/python3.6/site-packages,PAYU_PATH=/apps/payu/0.11.2/bin,PAYU_CURRENT_RUN=0 -- /apps/python3/3.6.2/bin/python3 /apps/payu/0.11.2/bin/payu-run
+1689998.r-man2
+qsub -q express -P v45 -l walltime=03:00:00 -l ncpus=128 -l mem=300GB -N PR_LAV_00001 -l wd -j n -v LD_LIBRARY_PATH=/apps/python3/3.6.2/lib,PYTHONPATH=/apps/payu/0.11.2/lib/python3.6/site-packages,PAYU_PATH=/apps/payu/0.11.2/bin,PAYU_CURRENT_RUN=0 -- /apps/python3/3.6.2/bin/python3 /apps/payu/0.11.2/bin/payu-run
+1690000.r-man2
+qsub -q express -P v45 -l walltime=03:00:00 -l ncpus=128 -l mem=300GB -N PR_LAV_00002 -l wd -j n -v LD_LIBRARY_PATH=/apps/python3/3.6.2/lib,PYTHONPATH=/apps/payu/0.11.2/lib/python3.6/site-packages,PAYU_PATH=/apps/payu/0.11.2/bin,PAYU_CURRENT_RUN=0 -- /apps/python3/3.6.2/bin/python3 /apps/payu/0.11.2/bin/payu-run
+3

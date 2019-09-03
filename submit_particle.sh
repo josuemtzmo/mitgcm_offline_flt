@@ -17,11 +17,12 @@ do
   # Modify corresponding files to setup the experiment.
   sed s-{0}-$(printf %05d ${tt%})-g config_sed.yaml > "$folder/config.yaml"
   cp ./input/* $folder/.
-  sed s-input_off-30d/30d_slice_chunk_$(printf %05d ${tt%})-g input/data.off > "$folder/data.off" 
+  sed s-input_off-'.'-g input/data.off > "$folder/data.off" 
   sed s-{0}-$(printf %05d ${tt%})-g config_sed.yaml > "$folder/config.yaml"
   sed s-{0}-30d_slice_chunk_$(printf %05d ${tt%})-g input/clear_archive.sh > "$folder/clear_archive.sh"
-
   cd $folder
+  
+  ln -s /home/156/jm5970/short/mitgcm/input/global_particle_release/flt_global_hex_032deg.bin .
 
   # Run the experiment. 
   payu run -i 0  
