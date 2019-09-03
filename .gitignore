@@ -1,6 +1,7 @@
 *.nc
 *.meta
 *.data
+*.bk
 build/
 MIT_LAVD.*
 mitgcm*
