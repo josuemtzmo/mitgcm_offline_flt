@@ -34,7 +34,7 @@ do
   if [ $count -eq 3 ]
     then
       echo $count 
-      sleep 8h
+      sleep 3h
   fi
   
 done

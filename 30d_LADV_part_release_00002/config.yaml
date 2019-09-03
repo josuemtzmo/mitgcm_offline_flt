@@ -13,3 +13,5 @@ input: global_particle_release/30d/30d_slice_chunk_00002
 #collate: True
 #collate_walltime: 1:00:00
 #collate_mem: 1GB
+userscripts:
+  archive: clear_archive.sh
