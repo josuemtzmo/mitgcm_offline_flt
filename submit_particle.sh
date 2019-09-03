@@ -22,7 +22,7 @@ do
   sed s-{0}-30d_slice_chunk_$(printf %05d ${tt%})-g input/clear_archive.sh > "$folder/clear_archive.sh"
   cd $folder
   
-  ln -s /home/156/jm5970/short/mitgcm/input/global_particle_release/flt_global_hex_032deg.bin .
+  ln -s '$input_path/flt_global_hex_032deg.bin' '$input_path/30d/30d_slice_chunk_$(printf %05d ${tt%})'
 
   # Run the experiment. 
   payu run -i 0  
