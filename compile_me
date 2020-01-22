@@ -1,16 +1,19 @@
 #!/bin/bash
-mlcompileMIT
+module purge
+module load openmpi/4.0.1
+module load intel-compiler/2019.5.281
+module load netcdf/4.6.3
 
-code_root=/home/156/jm5970/experiments/particle_release_extp/code
-dir_root=/home/156/jm5970/models/MITgcm
+code_root=/home/156/jm5970/expts/mitgcm_offline_flt/code
+dir_root=/g/data4/x77/jm5970/MITgcm
 
-cd /home/156/jm5970/models/MITgcm/build/particle_relase
+cd /home/156/jm5970/expts/mitgcm_offline_flt/build 
 
 rm -r *
 
 # ../../../../models/MITgcm/tools/genmake2 -mods=../code -rootdir /home/156/jm5970/models/MITgcm -mpi
 
-/short/v45/jm5970/models/MITgcm/tools/genmake2 -mods=${code_root} -rootdir ${dir_root} -mpi
+${dir_root}/tools/genmake2 -mods=${code_root} -rootdir ${dir_root} -mpi -optfile ../linux_amd64_ifort_gadi
 
 make depend
 make -j 8
