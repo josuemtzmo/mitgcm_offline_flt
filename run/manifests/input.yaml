@@ -1,6 +1,26 @@
 format: yamanifest
 version: 1.0
 ---
+work/flt_global_hex_032deg.bin:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/flt_global_hex_032deg.bin
+  hashes:
+    binhash: 3c6933e136defe6c87c9848a59ee27f9
+    md5: 70032fdb929aa8f16ab8fccfd5b0cab4
+work/flt_global_hex_10deg.bin:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/flt_global_hex_10deg.bin
+  hashes:
+    binhash: fba0715993eefa8a9abec52e46dfc747
+    md5: eced84b25da947aef352c9fb34460e14
+work/flt_global_hex_1deg.bin:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/flt_global_hex_1deg.bin
+  hashes:
+    binhash: 17399454409173d81b74532b82440454
+    md5: 7435e6cefcbd290b4bb884e93ed73b56
+work/flt_global_hex_5deg.bin:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/flt_global_hex_5deg.bin
+  hashes:
+    binhash: 053d39202a7b5eccd97fb068daba0622
+    md5: 3700f8fa95bb2c55bd71fd09f587a6bf
 work/input_off/U_sat.0000000000.data:
   fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/input_off/U_sat.0000000000.data
   hashes:
