@@ -19,7 +19,7 @@ C                       or only few fields along traj. and vert. profile
       PARAMETER (max_npart_tile = 1000000)
       PARAMETER (max_npart_exch =  10000)
 c      PARAMETER (fltBufDim = (9+4*Nr))
-      PARAMETER (fltBufDim = 15 )
+      PARAMETER (fltBufDim = 16 )
 c     PARAMETER (fltBufDim =  8 )
 
 C---+----1----+----2----+----3----+----4----+----5----+----6----+----7-|--+----|
