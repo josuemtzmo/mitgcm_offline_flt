@@ -1,15 +1,17 @@
 #!/bin/bash
 
 #Load modules & global variables
-module load payu
+module use /g/data3/hh5/public/modules
+module load conda/analysis3-unstable
+
 globalpath=`pwd`
 count=0
 
 # input path
-input_path='/home/156/jm5970/short/mitgcm/input/global_particle_release'
+input_path='/scratch/x77/jm5970/mitgcm/input/global_particle_release'
 
 # Loop for every initialization of the particle release:
-for tt in `seq 0 308`
+for tt in `seq 0 11`
 do
   # Create folder for running experiment.
   folder="30d_LADV_part_release_$(printf %05d ${tt%})"
@@ -22,7 +24,7 @@ do
   sed s-{0}-30d_slice_chunk_$(printf %05d ${tt%})-g input/clear_archive.sh > "$folder/clear_archive.sh"
   cd $folder
   
-  ln -s $input_path/flt_global_hex_032deg.bin $input_path/30d/30d_slice_chunk_$(printf %05d ${tt%})
+  ln -s $input_path/flt_global_hex_1deg.bin $input_path/30d/30d_slice_chunk_$(printf %05d ${tt%})/
 
   # Run the experiment. 
   payu run -i 0  
@@ -31,7 +33,7 @@ do
 
   count=$((count+1))
   # Sleep for 8 hours so the process can be executed, without over queuing PBS.
-  if [ $count -eq 3 ]
+  if [ $count -eq 15 ]
     then
       echo $count 
       sleep 3h
