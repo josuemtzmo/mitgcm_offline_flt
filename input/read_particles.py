@@ -54,7 +54,7 @@ class ReadParticles():
         elif type(self.filename)==list and file == None:
             raise ValueError('Use the function load_mftracks to load multiple files.')
 
-        dimList = [     1,    1,    1,     1,    1,    1,    15,    1,   15 ];     
+        dimList = [     1,    1,    1,     1,    1,    1,    16,    1,   16 ];     
         self.records=int(dimList[-1])
         
         byterate = 8
@@ -85,17 +85,17 @@ class ReadParticles():
         self.bin2pd()
         return self.df_tracks
 
-    def bin2pd(self,numcols=15):
+    def bin2pd(self,numcols=16):
         if self.records < numcols:
             numcols = self.records
-        cols_name=['x','y','z','i','j','k','p','u','v','t','s','vort','ke','c1'
+        cols_name=['x','y','z','i','j','k','p','u','v','t','s','vort','ke','t2ave'
         ,'c2','c3','c4','c5','c6','c7','c8','c9','c10','c11','c12','c13','c14']
         if numcols > len(cols_name):
             raise ValueError('''Most of the tracking data is contained in the 
                                 first 13 collumns, if you need more outputs, 
                                 modify the cols_name variable in this function.''')
         index = pd.MultiIndex.from_arrays(self.arrtile[:,0:2].T, names=('particle_id', 'time'))
-        df_tracks = pd.DataFrame(np.array(self.arrtile[:,2:numcols],dtype=np.float32),
+        df_tracks = pd.DataFrame(np.array(self.arrtile[:,2:numcols],dtype=np.float64),
                     columns=cols_name[0:numcols-2],index=index)
         self.df_tracks=df_tracks.sort_index()
     
