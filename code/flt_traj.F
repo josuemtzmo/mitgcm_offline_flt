@@ -49,11 +49,11 @@ C     !LOCAL VARIABLES:
       _RL KE(1-OLx:sNx+OLx,1-OLy:sNy+OLy,Nr,nSx,nSy)
       _RL vort3(1-OLx:sNx+OLx,1-OLy:sNy+OLy)
       INTEGER imax
-      PARAMETER (imax=15)
-      _RL tmp(imax)
+      PARAMETER (imax=16)
+      _RL tmp(imax), tmp2(imax)
       _RL npart_read, npart_times
       _RS dummyRS(1)
-      INTEGER fp, ioUnit, irecord
+      INTEGER fp, ioUnit, irecord, pirecord
       CHARACTER*(MAX_LEN_FNAM) fn
       CHARACTER*(MAX_LEN_MBUF) msgBuf
 #ifdef ALLOW_EXCH2
@@ -67,15 +67,14 @@ C--   set number of fields to write
       nFlds = 0
       IF ( flt_selectTrajOutp.GE.1 ) nFlds = nFlds + 8
       IF ( flt_selectTrajOutp.GE.2 ) nFlds = nFlds + 5
-C--   Modified sction to write KE and vorticity along the particle track.
+C--   Modified section to write KE and vorticity along the particle track.
       IF ( flt_selectTrajOutp.GE.3 ) THEN 
-        nFlds = nFlds + 2
+        nFlds = nFlds + 3
         KE = ((uVel*uVel) + (vVel*vVel))
         DO bj=myByLo(myThid),myByHi(myThid)
           DO bi=myBxLo(myThid),myBxHi(myThid)
             DO j=2,sNy
               DO i=2,sNx
-C                vort3(i,j) = (
                 vort3(i,j) = recip_rAz(i,j,bi,bj)*(
      &               vVel( i ,j,1,bi,bj)*dyC( i ,j,bi,bj)
      &               -vVel(i-1,j,1,bi,bj)*dyC(i-1,j,bi,bj)
@@ -165,15 +164,20 @@ C-- jmc: not sure if this is right but added to avoid Pb in FLT_BILINEAR:
               
               tmp(12) = tt
               tmp(13) = ss
+              
               IF ( ( flt_selectTrajOutp.GE.3 ) ) THEN
                 CALL FLT_BILINEAR  (ix,jy,vort,vort3,
      &                               kp,0,bi,bj,myThid)
                 CALL FLT_BILINEAR  (ix,jy,ttke, KE, 
      &                               kp,1,bi,bj,myThid)
-                
                 tmp(14) = vort
                 tmp(15) = ttke
+                tmp(16) = 1
+                CLOSE( ioUnit )
               ENDIF
+C DELETE NEXT 2 LINES
+              tmp(12) = vort
+              tmp(13) = ttke
 
             ELSEIF ( flt_selectTrajOutp.GE.2 ) THEN
               tmp( 9) = flt_nan
@@ -261,11 +265,35 @@ C     total number of fields
 
          DO ip=1,npart_tile(bi,bj)
 C (3) write float positions into file
+
+C            irecord = ip+1
             irecord = npart_read+ip+1
+            print*,irecord,npart_read,npart_tile(bi,bj)
+            print*,tmp
+            IF ( ( flt_selectTrajOutp.GE.3 ) ) THEN
+              IF ( npart_read.NE.0 ) THEN
+              pirecord=irecord-npart_tile(bi,bj)
+C              pirecord=irecord
+              CALL MDS_READVEC_LOC(  fn, fp, ioUnit, 'RL', nFlds,
+     O                               tmp2, dummyRS,
+     I                               bi, bj, pirecord, myThid )
+              DO ii=14,nFlds
+                print*,tmp2(ii),flt_io_buff(ii,ip,bi,bj)
+                flt_io_buff(ii,ip,bi,bj) = (flt_io_buff(ii,ip,bi,bj)
+     &                                      + tmp2(ii))
+              ENDDO
+              ENDIF
+            ENDIF
+C            print*,flt_io_buff(1,ip,bi,bj),nFlds,dummyRS
             IF ( ip.NE.npart_tile(bi,bj) ) irecord = -irecord
+            
             CALL MDS_WRITEVEC_LOC( fn, fp, ioUnit, 'RL', nFlds,
      I                             flt_io_buff(1,ip,bi,bj), dummyRS,
      I                             bi, bj, irecord, myIter, myThid )
+            
+C            CALL MDS_WRITEVEC_LOC( fn, fp, ioUnit, 'RL', nFlds,
+C     I                             flt_io_buff(1,ip,bi,bj), dummyRS,
+C     I                             bi, bj, irecord, myIter, myThid )
          ENDDO
          CLOSE( ioUnit )
 
