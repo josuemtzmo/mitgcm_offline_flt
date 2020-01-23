@@ -263,6 +263,7 @@ C     total number of fields
      &                          tmp, dummyRS,
      &                          bi, bj, -1, myIter, myThid )
 
+         print*,tmp
          DO ip=1,npart_tile(bi,bj)
 C (3) write float positions into file
 
@@ -278,7 +279,7 @@ C              pirecord=irecord-npart_tile(bi,bj)
      O                               tmp2, dummyRS,
      I                               bi, bj, pirecord, myThid )
               DO ii=14,nFlds
-                print*,tmp2(ii),flt_io_buff(ii,ip,bi,bj)
+C                print*,tmp2(ii),flt_io_buff(ii,ip,bi,bj)
                 flt_io_buff(ii,ip,bi,bj) = (flt_io_buff(ii,ip,bi,bj)
      &                                      + tmp2(ii))
               ENDDO
