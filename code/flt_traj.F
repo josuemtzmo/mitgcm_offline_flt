@@ -266,14 +266,14 @@ C     total number of fields
          DO ip=1,npart_tile(bi,bj)
 C (3) write float positions into file
 
-C            irecord = ip+1
-            irecord = npart_read+ip+1
+            irecord = ip+1
+C            irecord = npart_read+ip+1
             print*,irecord,npart_read,npart_tile(bi,bj)
             print*,tmp
             IF ( ( flt_selectTrajOutp.GE.3 ) ) THEN
               IF ( npart_read.NE.0 ) THEN
-              pirecord=irecord-npart_tile(bi,bj)
-C              pirecord=irecord
+C              pirecord=irecord-npart_tile(bi,bj)
+              pirecord=irecord
               CALL MDS_READVEC_LOC(  fn, fp, ioUnit, 'RL', nFlds,
      O                               tmp2, dummyRS,
      I                               bi, bj, pirecord, myThid )
