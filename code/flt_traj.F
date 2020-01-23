@@ -211,7 +211,6 @@ C--   Write shared buffer to file
 
 C (1) read actual number floats from file (if exists)
          ioUnit = -2
-         print*,"PASS"
          CALL MDS_READVEC_LOC(  fn, fp, ioUnit, 'RL', nFlds,
      O                          tmp, dummyRS,
      I                          bi, bj, 1, myThid )
@@ -266,13 +265,13 @@ C     total number of fields
      &                          bi, bj, -1, myIter, myThid )
 
          print*,tmp
+         print*,npart_tile(bi,bj)
          DO ip=1,npart_tile(bi,bj)
 C (3) write float positions into file
 
             irecord = ip+1
+            print*,irecord
 C            irecord = npart_read+ip+1
-            print*,irecord,npart_read,npart_tile(bi,bj)
-            print*,tmp
             IF ( ( flt_selectTrajOutp.GE.3 ) ) THEN
               IF ( npart_read.NE.0 ) THEN
 C              pirecord=irecord-npart_tile(bi,bj)
