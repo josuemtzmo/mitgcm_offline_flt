@@ -601,6 +601,11 @@ work/V_sat.0000000029.meta:
   hashes:
     binhash: 4322c24ffcfe417802107c782ea69fad
     md5: 12887f11c173dff27a2e01d3d07c445c
+work/flt_global_hex_10deg.bin:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/flt_global_hex_10deg.bin
+  hashes:
+    binhash: fba0715993eefa8a9abec52e46dfc747
+    md5: eced84b25da947aef352c9fb34460e14
 work/flt_global_hex_1deg.bin:
   fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/flt_global_hex_1deg.bin
   hashes:

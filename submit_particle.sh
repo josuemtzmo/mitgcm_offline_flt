@@ -6,13 +6,13 @@ module load conda/analysis3-unstable
 
 globalpath=`pwd`
 count=0
-particle_grid='flt_global_hex_1deg.bin'
+particle_grid='flt_global_hex_10deg.bin'
 
 # input path
 input_path='/scratch/x77/jm5970/mitgcm/input/global_particle_release'
 
 # Loop for every initialization of the particle release:
-for tt in `seq 0 11`
+for tt in `seq 0 1`
 do
   # Create folder for running experiment.
   folder="30d_LADV_part_release_$(printf %05d ${tt%})"
