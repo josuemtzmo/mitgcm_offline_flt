@@ -6,7 +6,7 @@ module load conda/analysis3-unstable
 
 globalpath=`pwd`
 count=0
-particle_grid='flt_global_hex_10deg.bin'
+particle_grid='flt_global_hex_1deg.bin'
 
 # input path
 input_path='/scratch/x77/jm5970/mitgcm/input/global_particle_release'
