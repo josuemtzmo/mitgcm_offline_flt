@@ -260,6 +260,7 @@ C     total number of fields
            tmp(ii) = 0.
          ENDDO
          ioUnit = -1
+         print*,"READ"
          CALL MDS_WRITEVEC_LOC( fn, fp, ioUnit, 'RL', nFlds,
      &                          tmp, dummyRS,
      &                          bi, bj, -1, myIter, myThid )
