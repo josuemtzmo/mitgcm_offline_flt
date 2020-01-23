@@ -3,8 +3,6 @@
 # Based on linux_amd64_ifort but with settings for gadi HPC at NCI
 #
 # https://nci.org.au/our-systems/hpc-systems
-# Obtained from: https://github.com/coecms/MITgcm/blob/gadi/tools/build_options/linux_amd64_ifort_gadi
-
 
 # If no MPI_INC_DIR default to loaded OpenMPI + Intel
 if [ ! -v "MPI_INC_DIR" ] && [ -v "OPENMPI_ROOT" ] && [  "x$MPI" = xtrue ] ; then
