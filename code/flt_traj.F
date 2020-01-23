@@ -211,6 +211,7 @@ C--   Write shared buffer to file
 
 C (1) read actual number floats from file (if exists)
          ioUnit = -2
+         print*,"PASS"
          CALL MDS_READVEC_LOC(  fn, fp, ioUnit, 'RL', nFlds,
      O                          tmp, dummyRS,
      I                          bi, bj, 1, myThid )
