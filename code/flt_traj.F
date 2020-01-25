@@ -260,7 +260,7 @@ C     total number of fields
          ENDDO
          ioUnit = -1
          WRITE(msgBuf,'(A,I4,I4)')
-     &            'tnr,tnf', tmp(1),tmp(6)
+     &            'tnr,tnf', tmp(1), max_npart
          CALL PRINT_ERROR( msgBuf, myThid )
          CALL MDS_WRITEVEC_LOC( fn, fp, ioUnit, 'RL', nFlds,
      &                          tmp, dummyRS,
