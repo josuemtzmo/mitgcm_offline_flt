@@ -259,20 +259,15 @@ C     total number of fields
            tmp(ii) = 0.
          ENDDO
          ioUnit = -1
-         WRITE(msgBuf,'(A,I4,I4)')
-     &            'tnr,tnf', tmp(1), max_npart
-         CALL PRINT_ERROR( msgBuf, myThid )
          CALL MDS_WRITEVEC_LOC( fn, fp, ioUnit, 'RL', nFlds,
      &                          tmp, dummyRS,
      &                          bi, bj, -1, myIter, myThid )
 
+         print*,myThid
          print*,tmp
          print*,npart_tile(bi,bj)
          DO ip=1,npart_tile(bi,bj)
 C (3) write float positions into file
-            WRITE(msgBuf,'(A,I4,I4)')
-     &            'PARTICLE NUM', npart(ip,bi,bj), ip
-            CALL PRINT_ERROR( msgBuf, myThid )
             irecord = ip+1
             print*,irecord
 C            irecord = npart_read+ip+1
