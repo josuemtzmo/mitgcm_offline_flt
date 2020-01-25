@@ -261,7 +261,7 @@ C     total number of fields
          ioUnit = -1
          WRITE(msgBuf,'(A,I4,I4)')
      &            'BiBj', bi,bj
-         CALL PRINT_MESSAGE( msgBuf, myThid )
+         CALL PRINT_ERROR( msgBuf, myThid )
          CALL MDS_WRITEVEC_LOC( fn, fp, ioUnit, 'RL', nFlds,
      &                          tmp, dummyRS,
      &                          bi, bj, -1, myIter, myThid )
@@ -272,7 +272,7 @@ C     total number of fields
 C (3) write float positions into file
             WRITE(msgBuf,'(A,I4,I4)')
      &            'PARTICLE NUM', npart(ip,bi,bj), ip
-            CALL PRINT_MESSAGE( msgBuf, myThid )
+            CALL PRINT_ERROR( msgBuf, myThid )
             irecord = ip+1
             print*,irecord
 C            irecord = npart_read+ip+1
