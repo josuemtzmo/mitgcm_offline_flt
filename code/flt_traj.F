@@ -270,9 +270,9 @@ C     total number of fields
          print*,npart_tile(bi,bj)
          DO ip=1,npart_tile(bi,bj)
 C (3) write float positions into file
-            WRITE(msgBuf,'(A,I4)')
-     &            'PARTICLE NUM', npart(ip,bi,bj)
-            CALL PRINT_ERROR( msgBuf, myThid )
+            WRITE(msgBuf,'(A,I4,I4)')
+     &            'PARTICLE NUM', npart(ip,bi,bj), ip
+            CALL PRINT_MESSAGE( msgBuf, myThid )
             irecord = ip+1
             print*,irecord
 C            irecord = npart_read+ip+1
