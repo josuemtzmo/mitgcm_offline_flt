@@ -261,7 +261,7 @@ C     total number of fields
          ioUnit = -1
          WRITE(msgBuf,'(A,I4,I4)')
      &            'BiBj', bi,bj
-         CALL PRINT_ERROR( msgBuf, myThid )
+         CALL PRINT_MESSAGE( msgBuf, myThid )
          CALL MDS_WRITEVEC_LOC( fn, fp, ioUnit, 'RL', nFlds,
      &                          tmp, dummyRS,
      &                          bi, bj, -1, myIter, myThid )
