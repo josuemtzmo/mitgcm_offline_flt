@@ -272,12 +272,12 @@ C     total number of fields
          WRITE(msgBuf,'(A,I4,I4)')
      &            'ntile',bi,bj
          CALL PRINT_ERROR( msgBuf, myThid )
-         WRITE(msgBuf,'(A,I4)')
-     &            'Npart',npart(ip,bi,bj)
-         CALL PRINT_ERROR( msgBuf, myThid )
 
          print*,'ntile',bi,bj
          DO ip=1,npart_tile(bi,bj)
+            WRITE(msgBuf,'(A,I4)')
+     &              'Npart',npart_tile(bi,bj)
+            CALL PRINT_ERROR( msgBuf, myThid )
 C (3) write float positions into file
             irecord = ip+1
             print*,irecord
