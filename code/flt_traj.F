@@ -263,9 +263,9 @@ C     total number of fields
      &                          tmp, dummyRS,
      &                          bi, bj, -1, myIter, myThid )
 
-         print*,myThid
-         print*,tmp
-         print*,npart_tile(bi,bj)
+         print*,'nS',nSy,nSx
+         print*,'tmp',tmp
+         print*,'ntile',npart_tile(bi,bj)
          DO ip=1,npart_tile(bi,bj)
 C (3) write float positions into file
             irecord = ip+1
