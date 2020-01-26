@@ -4,5 +4,5 @@ version: 1.0
 work/mitgcm_HR_satellite_P_release:
   fullpath: /scratch/x77/jm5970/mitgcm/bin/mitgcm_HR_satellite_P_release
   hashes:
-    binhash: 778304b42e465b25b038af4e880beef2
-    md5: 3f4a1a56f0b8cfb7ed53d3b6d9c38730
+    binhash: 73aefe932b8e7053411b7f4b75618543
+    md5: 443f802db3cb7cd24efabe65574a06ca
