@@ -48,7 +48,7 @@ C     !LOCAL VARIABLES:
       _RL uu, vv, tt, ss, pp, ttke, vort
       _RL KE(1-OLx:sNx+OLx,1-OLy:sNy+OLy,Nr,nSx,nSy)
       _RL vort3(1-OLx:sNx+OLx,1-OLy:sNy+OLy)
-      INTEGER imax
+      INTEGER imax, iG, jG
       PARAMETER (imax=16)
       _RL tmp(imax), tmp2(imax)
       _RL npart_read, npart_times
@@ -263,7 +263,9 @@ C     total number of fields
      &                          tmp, dummyRS,
      &                          bi, bj, -1, myIter, myThid )
 
-         print*,'nS',nSy,nSx
+         iG=bi+(myXGlobalLo-1)/sNx
+         jG=bj+(myYGlobalLo-1)/sNy
+         print*,iG,jG
          print*,'tmp',tmp
          print*,'ntile',npart_tile(bi,bj)
          DO ip=1,npart_tile(bi,bj)
