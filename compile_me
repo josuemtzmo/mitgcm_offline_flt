@@ -17,5 +17,5 @@ conf_file=../linux_amd64_ifort_gadi
 
 ${dir_root}/tools/genmake2 -mods=${code_root} -rootdir ${dir_root} -optfile ${conf_file} -mpi
 
-#make depend
-#make -j 8
+make depend
+make -j 8
