@@ -16,7 +16,7 @@ C                       fields to write (used for trajectories & profiles);
 C                       can be less than 9+4*Nr if not writing any profile
 C                       or only few fields along traj. and vert. profile
       INTEGER max_npart_tile, max_npart_exch, fltBufDim
-      PARAMETER (max_npart_tile = 1000000)
+      PARAMETER (max_npart_tile = 40000000)
       PARAMETER (max_npart_exch =  10000)
 c      PARAMETER (fltBufDim = (9+4*Nr))
       PARAMETER (fltBufDim = 16 )
