@@ -6,7 +6,7 @@
  &PARM01
  exactConserv=.TRUE.,
  readBinaryPrec=32,
- globalFiles=.TRUE.,
+# globalFiles=.TRUE.,
  &
 #
 # Elliptic solver parameters

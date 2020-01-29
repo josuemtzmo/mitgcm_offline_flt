@@ -37,7 +37,7 @@ NOOPTFLAGS='-O0 -g'
 NOOPTFILES=''
 
 FFLAGS="$FFLAGS -WB -convert big_endian -assume byterecl"
-FFLAGS="$FFLAGS -fPIC"
+FFLAGS="$FFLAGS -fPIC -mcmodel medium"
 
 if test "x$IEEE" = x ; then     #- with optimisation:
     FOPTIM='-O2 -align -xHost -ip'
@@ -63,7 +63,7 @@ LIBS=''
 if [ "x$NETCDF_ROOT" != x ] ; then
     INCLUDEDIRS="${NETCDF_ROOT}/include/Intel"
     INCLUDES="-I${NETCDF_ROOT}/include/Intel"
-    LIBS="-L${NETCDF_ROOT}/li/Intelb"
+    LIBS="-L${NETCDF_ROOT}/lib/Intel"
 fi
 
 if [ -n "$MPI_INC_DIR" -a "x$MPI" = xtrue ] ; then
