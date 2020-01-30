@@ -44,6 +44,7 @@ C     !FUNCTIONS:
 C     !LOCAL VARIABLES:
       INTEGER bi, bj, nFlds
       INTEGER ip, kp, ii, i, j
+      _RL x0,y0
       _RL ix, jy, i0x, j0y, xx, yy, zz
       _RL uu, vv, tt, ss, pp, ttke, vort
       _RL KE(1-OLx:sNx+OLx,1-OLy:sNy+OLy,Nr,nSx,nSy)
@@ -122,14 +123,16 @@ C--   Calculate position + other fields at float position and fill up IO-buffer
 
             ix = ipart(ip,bi,bj)
             jy = jpart(ip,bi,bj)
+            x0 = xx
+            y0 = yy
             CALL FLT_MAP_IJLOCAL2XY( xx, yy,
      I                               ix, jy, bi,bj, myThid )
             zz = FLT_MAP_K2R( kpart(ip,bi,bj),bi,bj,myThid )
             kp = NINT(kpart(ip,bi,bj))
             tmp(1) = npart(ip,bi,bj)
             tmp(2) = myTime
-            tmp(3) = xx
-            tmp(4) = yy
+            tmp(3) = x0
+            tmp(4) = y0
             tmp(5) = zz
             tmp(6) = ix + i0x
             tmp(7) = jy + j0y
@@ -273,14 +276,14 @@ C     total number of fields
      &            'ntile',bi,bj
          CALL PRINT_ERROR( msgBuf, myThid )
 
-         print*,'ntile',bi,bj
+C         print*,'ntile',bi,bj
          DO ip=1,npart_tile(bi,bj)
             WRITE(msgBuf,'(A,I4)')
      &              'Npart',npart_tile(bi,bj)
             CALL PRINT_ERROR( msgBuf, myThid )
 C (3) write float positions into file
             irecord = ip+1
-            print*,irecord
+C            print*,irecord
 C            irecord = npart_read+ip+1
             IF ( ( flt_selectTrajOutp.GE.3 ) ) THEN
               IF ( npart_read.NE.0 ) THEN
