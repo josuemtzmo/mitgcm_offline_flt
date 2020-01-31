@@ -6,26 +6,11 @@ work/flt_global_hex_010deg.bin:
   hashes:
     binhash: 003e2910dd6bfba3f842195f4beef210
     md5: 381c9c554792c8ef904f0bba444ad7b9
-work/flt_global_hex_016deg.bin:
-  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/flt_global_hex_016deg.bin
+work/flt_global_hex_012deg.bin:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/flt_global_hex_012deg.bin
   hashes:
-    binhash: 478c7a74174d00a9b8aed84b9e7eb4ef
-    md5: 1500b613290a287f5d0275f65c68510e
-work/flt_global_hex_020deg.bin:
-  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/flt_global_hex_020deg.bin
-  hashes:
-    binhash: b3c547ff35e65084bd116056f5223b3f
-    md5: d91ad4ad44fcb31330232732618dbec7
-work/flt_global_hex_032deg.bin:
-  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/flt_global_hex_032deg.bin
-  hashes:
-    binhash: fbd274f8323c9cb8f827a9895e67dae7
-    md5: 70032fdb929aa8f16ab8fccfd5b0cab4
-work/flt_global_hex_036deg.bin:
-  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/flt_global_hex_036deg.bin
-  hashes:
-    binhash: 6110f15dd47b76e78ba54233942e4a20
-    md5: 0c8bd9616f1257491ff57ec2b8943894
+    binhash: b8cab15390e154a68e4fc5ecac3b4f82
+    md5: 1cc0fef6014cfa8cd0673b8aacdd0679
 work/flt_global_hex_05deg.bin:
   fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/flt_global_hex_05deg.bin
   hashes:
