@@ -269,26 +269,26 @@ C     total number of fields
          iG=bi+(myXGlobalLo-1)/sNx
          jG=bj+(myYGlobalLo-1)/sNy
 
-         WRITE(msgBuf,'(A,I4,I4)')
-     &            'Halo',iG,jG
-         CALL PRINT_ERROR( msgBuf, myThid )
-         WRITE(msgBuf,'(A,I4,I4)')
-     &            'ntile',bi,bj
-         CALL PRINT_ERROR( msgBuf, myThid )
+C         WRITE(msgBuf,'(A,I4,I4)')
+C     &            'Halo',iG,jG
+C         CALL PRINT_ERROR( msgBuf, myThid )
+C         WRITE(msgBuf,'(A,I4,I4)')
+C     &            'ntile',bi,bj
+C         CALL PRINT_ERROR( msgBuf, myThid )
 
 C         print*,'ntile',bi,bj
          DO ip=1,npart_tile(bi,bj)
-            WRITE(msgBuf,'(A,I4)')
-     &              'Npart',npart_tile(bi,bj)
-            CALL PRINT_ERROR( msgBuf, myThid )
+C            WRITE(msgBuf,'(A,I4)')
+C     &              'Npart',npart_tile(bi,bj)
+C            CALL PRINT_ERROR( msgBuf, myThid )
 C (3) write float positions into file
-            irecord = ip+1
+C            irecord = ip+1
 C            print*,irecord
-C            irecord = npart_read+ip+1
+            irecord = npart_read+ip+1
             IF ( ( flt_selectTrajOutp.GE.3 ) ) THEN
               IF ( npart_read.NE.0 ) THEN
-C              pirecord=irecord-npart_tile(bi,bj)
-              pirecord=irecord
+              pirecord=irecord-npart_tile(bi,bj)
+C              pirecord=irecord
               CALL MDS_READVEC_LOC(  fn, fp, ioUnit, 'RL', nFlds,
      O                               tmp2, dummyRS,
      I                               bi, bj, pirecord, myThid )

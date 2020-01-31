@@ -1,6 +1,11 @@
 format: yamanifest
 version: 1.0
 ---
+work/flt_global_hex_016deg.bin:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/flt_global_hex_016deg.bin
+  hashes:
+    binhash: 8bb3e11bfe45e3abf4be074b500f3f77
+    md5: 1500b613290a287f5d0275f65c68510e
 work/flt_global_hex_032deg.bin:
   fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/flt_global_hex_032deg.bin
   hashes:
