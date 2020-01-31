@@ -5,7 +5,7 @@
  flt_int_traj =  10800.,
  flt_int_prof =  10800.,
  flt_noise    =  0.0,
- flt_file     =  'flt_global_hex_016deg.bin',
+ flt_file     =  'flt_global_hex_010deg.bin',
  flt_selectProfOutp = 2,
  flt_selectTrajOutp = 3,
  &
