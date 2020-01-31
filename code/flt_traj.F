@@ -269,46 +269,26 @@ C     total number of fields
          iG=bi+(myXGlobalLo-1)/sNx
          jG=bj+(myYGlobalLo-1)/sNy
 
-C         WRITE(msgBuf,'(A,I4,I4)')
-C     &            'Halo',iG,jG
-C         CALL PRINT_ERROR( msgBuf, myThid )
-C         WRITE(msgBuf,'(A,I4,I4)')
-C     &            'ntile',bi,bj
-C         CALL PRINT_ERROR( msgBuf, myThid )
-
-C         print*,'ntile',bi,bj
          DO ip=1,npart_tile(bi,bj)
-C            WRITE(msgBuf,'(A,I4)')
-C     &              'Npart',npart_tile(bi,bj)
-C            CALL PRINT_ERROR( msgBuf, myThid )
-C (3) write float positions into file
-C            irecord = ip+1
-C            print*,irecord
             irecord = npart_read+ip+1
             IF ( ( flt_selectTrajOutp.GE.3 ) ) THEN
               IF ( npart_read.NE.0 ) THEN
               pirecord=irecord-npart_tile(bi,bj)
-C              pirecord=irecord
               CALL MDS_READVEC_LOC(  fn, fp, ioUnit, 'RL', nFlds,
      O                               tmp2, dummyRS,
      I                               bi, bj, pirecord, myThid )
               DO ii=14,nFlds
-C                print*,tmp2(ii),flt_io_buff(ii,ip,bi,bj)
                 flt_io_buff(ii,ip,bi,bj) = (flt_io_buff(ii,ip,bi,bj)
      &                                      + tmp2(ii))
               ENDDO
               ENDIF
             ENDIF
-C            print*,flt_io_buff(1,ip,bi,bj),nFlds,dummyRS
             IF ( ip.NE.npart_tile(bi,bj) ) irecord = -irecord
             
             CALL MDS_WRITEVEC_LOC( fn, fp, ioUnit, 'RL', nFlds,
      I                             flt_io_buff(1,ip,bi,bj), dummyRS,
      I                             bi, bj, irecord, myIter, myThid )
             
-C            CALL MDS_WRITEVEC_LOC( fn, fp, ioUnit, 'RL', nFlds,
-C     I                             flt_io_buff(1,ip,bi,bj), dummyRS,
-C     I                             bi, bj, irecord, myIter, myThid )
          ENDDO
          CLOSE( ioUnit )
 
