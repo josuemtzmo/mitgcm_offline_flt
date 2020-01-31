@@ -18,7 +18,7 @@ C                       or only few fields along traj. and vert. profile
       INTEGER max_npart_tile, max_npart_exch, fltBufDim
       PARAMETER (max_npart_tile = 40000000)
       PARAMETER (max_npart_exch =  10000)
-c      PARAMETER (fltBufDim = (9+4*Nr))
+c     PARAMETER (fltBufDim = (9+4*Nr))
       PARAMETER (fltBufDim = 16 )
 c     PARAMETER (fltBufDim =  8 )
 
