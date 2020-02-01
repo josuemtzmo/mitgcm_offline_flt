@@ -31,6 +31,11 @@ work/flt_global_hex_028deg.bin:
   hashes:
     binhash: 14c559114153dc5d96d4c5ce12a4ff46
     md5: 2e43b71f9ac5247db5f571d22c49a5d7
+work/flt_global_hex_030deg.bin:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/flt_global_hex_030deg.bin
+  hashes:
+    binhash: cb800291ccddeaac66d9b4e46c93ab98
+    md5: 33973df1b118f88f52f2e4ddd101047e
 work/flt_global_hex_05deg.bin:
   fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/flt_global_hex_05deg.bin
   hashes:
