@@ -6,6 +6,8 @@
  &PARM01
  exactConserv=.TRUE.,
  readBinaryPrec=32,
+ writeBinaryPrec=64,
+# globalFiles=.TRUE.,
  &
 #
 # Elliptic solver parameters
@@ -17,7 +19,7 @@
 # Time stepping parameters
  &PARM03
  nIter0      =  0,
- nTimeSteps  =  30,
+ nTimeSteps  =  1,
  deltaT      =  86400.0,
  pChkptFreq  =  2592000.0,
  dumpFreq    =  86400.0,

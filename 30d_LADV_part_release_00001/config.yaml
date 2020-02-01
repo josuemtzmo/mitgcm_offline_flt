@@ -1,6 +1,6 @@
-ncpus: 96
-mem: 300GB
-walltime: 03:00:00
+ncpus: 1
+mem: 50GB
+walltime: 07:00:00
 jobname: PR_LAV_00001
 project: x77
 queue: express
