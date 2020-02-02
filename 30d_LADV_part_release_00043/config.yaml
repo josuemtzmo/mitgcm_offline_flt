@@ -1,0 +1,17 @@
+ncpus: 1
+mem: 50GB
+walltime: 07:00:00
+jobname: PR_LAV_00043
+project: x77
+queue: express
+qsub_flags: -lother=hyperthread -W umask=027 -l storage=gdata/v45+scratch/v45+gdata/hh5+gdata/x77
+
+model: mitgcm
+shortpath: /scratch/x77
+exe: mitgcm_HR_satellite_P_release
+input: global_particle_release/30d/30d_slice_chunk_00043
+
+collate: True
+userscripts:
+  archive: clear_archive.sh
+
