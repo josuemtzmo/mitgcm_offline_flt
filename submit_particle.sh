@@ -6,6 +6,7 @@ module load conda/analysis3-unstable
 
 globalpath=`pwd`
 count=0
+cc=0
 particle_grid='flt_global_hex_032deg.bin'
 
 # input path
@@ -29,13 +30,12 @@ do
   ln -s $input_path/${particle_grid} $input_path/30d/30d_slice_chunk_$(printf %05d ${tt%})/
 
   # Run the experiment. 
-  payu run -i 0  
+#  payu run -i 0  
 
   cd $globalpath
 
   count=$((count+1))
 
-  cc=0
   n=1
   # Sleep for 8 hours so the process can be executed, without over queuing PBS.
   if [ $cc -eq $n ]
