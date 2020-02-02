@@ -7,7 +7,7 @@ module load conda/analysis3-unstable
 globalpath=`pwd`
 count=0
 cc=0
-n=1
+n=25
 particle_grid='flt_global_hex_032deg.bin'
 
 # input path
