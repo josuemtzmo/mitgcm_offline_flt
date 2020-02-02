@@ -1,8 +1,0 @@
-format: yamanifest
-version: 1.0
----
-work/mitgcm_HR_satellite_P_release:
-  fullpath: /scratch/x77/jm5970/mitgcm/bin/mitgcm_HR_satellite_P_release
-  hashes:
-    binhash: 18d102ec48df2c8404306266b7ebf534
-    md5: 0af1fa35b4aa9feca66967ad0491820f

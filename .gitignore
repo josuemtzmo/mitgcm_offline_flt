@@ -8,3 +8,5 @@ mitgcm*
 run/work
 30d_LADV_part_release_*/work
 30d_LADV_part_release_*/archive
+30d_LADV_part_release_*
+30d_LADV_part_release_*/
