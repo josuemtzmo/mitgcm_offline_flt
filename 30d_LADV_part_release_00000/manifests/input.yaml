@@ -1,0 +1,618 @@
+format: yamanifest
+version: 1.0
+---
+work/U_sat.0000000000.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000000.data
+  hashes:
+    binhash: e43a2269883da5cf13e037b6b1b414f1
+    md5: 29fdece2084d8100d2e8cb4c0598783e
+work/U_sat.0000000000.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000000.meta
+  hashes:
+    binhash: c06dccce40b66dec1b399e8f1b65edf6
+    md5: e44764853d31dc37f66dfc24e0d7c467
+work/U_sat.0000000001.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000001.data
+  hashes:
+    binhash: 704d141ad4bd662341f02c058a49835a
+    md5: 173d85be2b5514066373b80a91409323
+work/U_sat.0000000001.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000001.meta
+  hashes:
+    binhash: 07949e393985bb66808a07b7551cea88
+    md5: 59c406bf41f7a06419fbc02416647e51
+work/U_sat.0000000002.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000002.data
+  hashes:
+    binhash: 2c4a4888d9698a6730226c3a1bac48c4
+    md5: 1416f518949f13e8208f2a1111830d30
+work/U_sat.0000000002.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000002.meta
+  hashes:
+    binhash: e50b399584195014ecc03bb849ff31a0
+    md5: f2a6698fefec07729cd6f58a50aa6050
+work/U_sat.0000000003.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000003.data
+  hashes:
+    binhash: b927586cfc72a1895a7d8dc88dfc6c49
+    md5: 663d50862746ea82ea24a60ec250e6d5
+work/U_sat.0000000003.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000003.meta
+  hashes:
+    binhash: ca3367bf07fcaab28a309df5f6f0bec4
+    md5: b40381e053cc8fb1fd917440e363675a
+work/U_sat.0000000004.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000004.data
+  hashes:
+    binhash: b5bfff4d30f88fc287f2062e9126d70d
+    md5: d08530ff1057dc0dbc6ff01f60d17e8b
+work/U_sat.0000000004.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000004.meta
+  hashes:
+    binhash: 1218c845b6b7dad72080f4d408e01ec4
+    md5: 334684fe5cba2d180dcbb67edc0d3988
+work/U_sat.0000000005.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000005.data
+  hashes:
+    binhash: 07c9764aecf4b9099bc0ef14bfc0e441
+    md5: 70855db13197f82ba1bef992f11c51b2
+work/U_sat.0000000005.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000005.meta
+  hashes:
+    binhash: 1412c8da48d13ec311a98dd6371c1a9f
+    md5: eeb30d9c0bb0db1cf0a4cc3d89c66363
+work/U_sat.0000000006.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000006.data
+  hashes:
+    binhash: 873a492fb6000e7dbd867b0ab6877942
+    md5: b935cbdcb447b5cf8361a16487e59703
+work/U_sat.0000000006.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000006.meta
+  hashes:
+    binhash: f25d41147f320f634a93d87111957585
+    md5: 191ad9c24edb5500d5999bd3aa2d4d79
+work/U_sat.0000000007.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000007.data
+  hashes:
+    binhash: a04a8af176bc0933963d7d5ba8a7a1d0
+    md5: 9c92e42f2edc670233a2dd0ed37e1fdb
+work/U_sat.0000000007.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000007.meta
+  hashes:
+    binhash: 315ec47d0637f47aa174859803db0425
+    md5: edbfff78579a54444d02ded42801e5ad
+work/U_sat.0000000008.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000008.data
+  hashes:
+    binhash: c61fe080fdb01baed014172ac9ce33fb
+    md5: 14ab7c4d992fb72727cf93ab921a76b1
+work/U_sat.0000000008.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000008.meta
+  hashes:
+    binhash: 4bb595e35c59b96ede9c54de24a10782
+    md5: 9577cdd72cacd6596fc40a2b92e10c57
+work/U_sat.0000000009.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000009.data
+  hashes:
+    binhash: 4728329be1c19a28aac20cefa39a6c7f
+    md5: 1fe3a1e92c9f47b5049ec252fdfc64e6
+work/U_sat.0000000009.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000009.meta
+  hashes:
+    binhash: e0dd9a550b38a8340235ec97ce2d3109
+    md5: 57513c524641eb8927e66860a6d4f035
+work/U_sat.0000000010.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000010.data
+  hashes:
+    binhash: 22b2a8ed3edccf6863ce685c246123a3
+    md5: b6e31e54cc83256c9e1a459e1b8f2aca
+work/U_sat.0000000010.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000010.meta
+  hashes:
+    binhash: 1b6cb004ff3397faf696a760eada2788
+    md5: 141544b3e2c9692045575a27b99ddd46
+work/U_sat.0000000011.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000011.data
+  hashes:
+    binhash: 7a30b916353045516cd6320d7bcd92ca
+    md5: 5c4dc75320a2ee45275e442d4a63240f
+work/U_sat.0000000011.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000011.meta
+  hashes:
+    binhash: b4434f479fb06be8166ba95fbf88ea73
+    md5: 75f6ecd7b54fda9050804ea77930fbd3
+work/U_sat.0000000012.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000012.data
+  hashes:
+    binhash: e4cf236df0b48f256a1b99b49ec58c0f
+    md5: 00928230574c3cbd299e650a92967234
+work/U_sat.0000000012.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000012.meta
+  hashes:
+    binhash: f58d11b9e607fe8537d827548d70f01f
+    md5: b00d907db8257d9328f695ba519149c6
+work/U_sat.0000000013.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000013.data
+  hashes:
+    binhash: 7a82ff6e8b1153c488e16be500740c14
+    md5: fffccae1eaabcbaf1a3a99bbbd998ff8
+work/U_sat.0000000013.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000013.meta
+  hashes:
+    binhash: f62165440427f00ec0b46e124a259ab2
+    md5: 98b9e898f7ac7a21b536a250400d77fd
+work/U_sat.0000000014.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000014.data
+  hashes:
+    binhash: a337862e7edb2b372a421ddf5dbd027d
+    md5: fcc935490ce7729e2f28cfbd266f4c8d
+work/U_sat.0000000014.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000014.meta
+  hashes:
+    binhash: b6091e73cc95d3d1a0633a6c0fb3f44a
+    md5: df1c978b424fa65f24ca1cb971afa805
+work/U_sat.0000000015.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000015.data
+  hashes:
+    binhash: 0a1c1de672c2646c277b42d03253f1e0
+    md5: 6fecb32e1cbd870497b96722dca5b7aa
+work/U_sat.0000000015.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000015.meta
+  hashes:
+    binhash: 2c5838571bb3b4fa5167b4d5ab5c5366
+    md5: 3642ab7f2e2d8f4c9ffb44b0392ce3e1
+work/U_sat.0000000016.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000016.data
+  hashes:
+    binhash: a933fd8f1aa751ee85e493452a585bf4
+    md5: 1394a86899ac1cfafa411a1aa6c23aad
+work/U_sat.0000000016.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000016.meta
+  hashes:
+    binhash: 704f1cf44e2002e0077b159a18340e88
+    md5: 581c64d90eef1adaeb420b6ee68867a6
+work/U_sat.0000000017.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000017.data
+  hashes:
+    binhash: 7b576dbc6cbb7c5e134f92d59e1f75c6
+    md5: 7f5ed01e98abe06ce793c87128c40e9a
+work/U_sat.0000000017.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000017.meta
+  hashes:
+    binhash: 9a1cfae813499ee41cb973d8f159b39e
+    md5: 2eba6da13035dc68fc79e7ae10953b46
+work/U_sat.0000000018.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000018.data
+  hashes:
+    binhash: 1db6b8da992550c14afa6117464753df
+    md5: f29e4d51f8bd5a1c5b88647c30cba254
+work/U_sat.0000000018.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000018.meta
+  hashes:
+    binhash: aa94ef536a9b0e0a0df770256bc51ef3
+    md5: 58e4dbd29587ad173a3ae25c78f9db4f
+work/U_sat.0000000019.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000019.data
+  hashes:
+    binhash: ea087d1d5f856bd43ab218e42683aaf9
+    md5: 97ac6f42b20c00c5272a9ad86851954a
+work/U_sat.0000000019.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000019.meta
+  hashes:
+    binhash: a7314a873b28549c5fe3de208da73bdf
+    md5: 46747b73d2359b78236b95db9269a815
+work/U_sat.0000000020.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000020.data
+  hashes:
+    binhash: 05876d504c48432eb9ff2d7da851bf77
+    md5: 64f0d804a003d74404525cb3226af38e
+work/U_sat.0000000020.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000020.meta
+  hashes:
+    binhash: 1b190d05bdaf8331e89aa68b247a440b
+    md5: aeaa58643768213f4efaafbe95ec92ac
+work/U_sat.0000000021.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000021.data
+  hashes:
+    binhash: 18d2cfaa63520551f2777e241d32a884
+    md5: efb37046e890e54dbf204f1483dc2530
+work/U_sat.0000000021.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000021.meta
+  hashes:
+    binhash: f908579e71256e8b59d4e02399d43c80
+    md5: 8b6a183514bcc18f651e3aceff2eee8a
+work/U_sat.0000000022.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000022.data
+  hashes:
+    binhash: b3ad7ef2c59e9a5983a92bed93a4a1a7
+    md5: 704ce23ba84c0062d3d5a72a20075d58
+work/U_sat.0000000022.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000022.meta
+  hashes:
+    binhash: 4d2dcef3362aa0e5d532deccb793e6f8
+    md5: c8585346fec7d3edecb86ea99419e500
+work/U_sat.0000000023.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000023.data
+  hashes:
+    binhash: 64a4ffcc444fc4aea36dbb50d3bc66d2
+    md5: b685887ef4e1ad44b8670795d729cea9
+work/U_sat.0000000023.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000023.meta
+  hashes:
+    binhash: e97c9bfe59acd34652e8191a57488cf6
+    md5: 0210c376a1e0672028abda13f88761af
+work/U_sat.0000000024.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000024.data
+  hashes:
+    binhash: 6d5892d7025d5ce4dd28830257a2ff29
+    md5: 9c4617f7f432b11607bdf47f68b122ca
+work/U_sat.0000000024.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000024.meta
+  hashes:
+    binhash: a42d386392b3345dc94017b3351ffd8b
+    md5: 8f455a61cf5264b55335dc0c41233a0d
+work/U_sat.0000000025.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000025.data
+  hashes:
+    binhash: bc8f92785f5b493e2db74b03eb25e3c8
+    md5: 9d83ed1220036adedb0eb3115eccfc8f
+work/U_sat.0000000025.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000025.meta
+  hashes:
+    binhash: 91cad5f49243201c41c3d4a12783a6c1
+    md5: 63416a238ff66a02055c4d557056f85e
+work/U_sat.0000000026.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000026.data
+  hashes:
+    binhash: f81768bc60e4f0002e5e5bd6c1e167ce
+    md5: 26f724021e80608af08b138aa4ed24e3
+work/U_sat.0000000026.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000026.meta
+  hashes:
+    binhash: c5496e52ee6089874acaded34463d231
+    md5: 38d77dd4ce9e4cf00baac322815b30dd
+work/U_sat.0000000027.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000027.data
+  hashes:
+    binhash: 576d911c2cd88a71626db7b35383a5c1
+    md5: b925cfbe28f64410ce4af249f7d41dde
+work/U_sat.0000000027.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000027.meta
+  hashes:
+    binhash: 4913c1607f602ca4c60e6f90226a1a54
+    md5: 58f9e789da62be3979abe9d4d92d4567
+work/U_sat.0000000028.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000028.data
+  hashes:
+    binhash: 56e382c86e6626e6fb0a4be8b3f02d20
+    md5: 93f134a28d1e47c917bb7f53629fee81
+work/U_sat.0000000028.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000028.meta
+  hashes:
+    binhash: 5942b1ef6fefbfb0c2b06b286786b8a0
+    md5: 41a691af4991f405ada07747843e70ac
+work/U_sat.0000000029.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000029.data
+  hashes:
+    binhash: 5cf3919e919de82d6409093b55c47ef8
+    md5: 0d10d22daf6af147deb88d3319400535
+work/U_sat.0000000029.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/U_sat.0000000029.meta
+  hashes:
+    binhash: 56a652e3916cd35f06b04b11d829b064
+    md5: 12887f11c173dff27a2e01d3d07c445c
+work/V_sat.0000000000.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000000.data
+  hashes:
+    binhash: 91b858630e1cb4cdeccb1d58b4201c6b
+    md5: 263418dd0071c024f452f98e62653d78
+work/V_sat.0000000000.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000000.meta
+  hashes:
+    binhash: 6954af358e6ac1735d914407ad3c29d2
+    md5: e44764853d31dc37f66dfc24e0d7c467
+work/V_sat.0000000001.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000001.data
+  hashes:
+    binhash: a13a423422ffd0b6b27b93daa4c19283
+    md5: d043f4b0af13dab61d0d35a82f7721f2
+work/V_sat.0000000001.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000001.meta
+  hashes:
+    binhash: ebbfec579da1a738d95708c6b99350c7
+    md5: 59c406bf41f7a06419fbc02416647e51
+work/V_sat.0000000002.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000002.data
+  hashes:
+    binhash: 68f96d2dd57608cdffb4cdc89ef773d8
+    md5: 2bd5d14e36c4da94315f1f3fbee05e9b
+work/V_sat.0000000002.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000002.meta
+  hashes:
+    binhash: 2c4decd3da378aa52fad4338630e0307
+    md5: f2a6698fefec07729cd6f58a50aa6050
+work/V_sat.0000000003.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000003.data
+  hashes:
+    binhash: 170a90c7ee8de452591471cc09b8fccc
+    md5: 76be4ce88edeb9164eb10d65e26ee3d5
+work/V_sat.0000000003.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000003.meta
+  hashes:
+    binhash: 6807a287e85d2e108cf603ba1d926771
+    md5: b40381e053cc8fb1fd917440e363675a
+work/V_sat.0000000004.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000004.data
+  hashes:
+    binhash: c4c19e84947cf8c85c153a77701e23c6
+    md5: 999d6c5ea9e4457dbbef3e1c4d77e0bd
+work/V_sat.0000000004.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000004.meta
+  hashes:
+    binhash: 024eec863059d984d3c3d35686b21695
+    md5: 334684fe5cba2d180dcbb67edc0d3988
+work/V_sat.0000000005.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000005.data
+  hashes:
+    binhash: 9947cfcdf82368cafeae3b55c63bb324
+    md5: ff03a0e96844b4c81fdf9f2de212bfe4
+work/V_sat.0000000005.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000005.meta
+  hashes:
+    binhash: 639400434e737f1bd7717bc6aeb168b0
+    md5: eeb30d9c0bb0db1cf0a4cc3d89c66363
+work/V_sat.0000000006.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000006.data
+  hashes:
+    binhash: 047ebe6484982a5e05d86d8cabe4acc5
+    md5: e45c1e3c04ab72ff5ce8c37e25871294
+work/V_sat.0000000006.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000006.meta
+  hashes:
+    binhash: 5c71c70d1a6a5d559a5b214d4ba53127
+    md5: 191ad9c24edb5500d5999bd3aa2d4d79
+work/V_sat.0000000007.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000007.data
+  hashes:
+    binhash: ad0e82641b0f7ee4834621c336c0ca89
+    md5: cee8ce195af7e2826050cca51b7c3dd0
+work/V_sat.0000000007.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000007.meta
+  hashes:
+    binhash: 3572f1b055b3ec79c39a8bd7e86bf727
+    md5: edbfff78579a54444d02ded42801e5ad
+work/V_sat.0000000008.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000008.data
+  hashes:
+    binhash: 3bc8f914a37cdb5a577f64c409e4af9c
+    md5: a4884c4afbb6c3fe54147dec38f2bce8
+work/V_sat.0000000008.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000008.meta
+  hashes:
+    binhash: 82628aab6778dfd2d27d157614dabbf9
+    md5: 9577cdd72cacd6596fc40a2b92e10c57
+work/V_sat.0000000009.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000009.data
+  hashes:
+    binhash: ee1250e1c0c8dc758d91ce61dd439b69
+    md5: 5a28d904b5265dbfdd185fb06407636f
+work/V_sat.0000000009.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000009.meta
+  hashes:
+    binhash: 0e42e0702b18b6f2fd89938bd45afdfc
+    md5: 57513c524641eb8927e66860a6d4f035
+work/V_sat.0000000010.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000010.data
+  hashes:
+    binhash: 11b5bfc5327e9359c40719d08c421bdb
+    md5: 9856da135d1e7888727da1525f6225be
+work/V_sat.0000000010.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000010.meta
+  hashes:
+    binhash: bfac312c8be2bcd4883f1ef0441b225b
+    md5: 141544b3e2c9692045575a27b99ddd46
+work/V_sat.0000000011.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000011.data
+  hashes:
+    binhash: 5529c2254f72a4fd3616f7a6ccc975ef
+    md5: 97e2e34530ac34fa6beca5d413403c9e
+work/V_sat.0000000011.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000011.meta
+  hashes:
+    binhash: 7bdd709862164d093192aca41354e0a3
+    md5: 75f6ecd7b54fda9050804ea77930fbd3
+work/V_sat.0000000012.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000012.data
+  hashes:
+    binhash: 7a1a4e22e281181c77cf07d477baceae
+    md5: be35172d73dd93ba94d27d204f6d063d
+work/V_sat.0000000012.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000012.meta
+  hashes:
+    binhash: a9ed033fe328c2b786904e92bf6b04d5
+    md5: b00d907db8257d9328f695ba519149c6
+work/V_sat.0000000013.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000013.data
+  hashes:
+    binhash: 20a708e79411ab6dad7c720c480cd0b3
+    md5: e46dbfd386375595ed63fd66b021f339
+work/V_sat.0000000013.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000013.meta
+  hashes:
+    binhash: ff3a774bb96ad278c8dc9f0ae6ba9eb8
+    md5: 98b9e898f7ac7a21b536a250400d77fd
+work/V_sat.0000000014.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000014.data
+  hashes:
+    binhash: 1659eb0d89eb8d23d577fb06afbef425
+    md5: 2d7043e7035f15302b6e3f4bf7731216
+work/V_sat.0000000014.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000014.meta
+  hashes:
+    binhash: 6fbbf24d1015cfd4abb0715e3703bb78
+    md5: df1c978b424fa65f24ca1cb971afa805
+work/V_sat.0000000015.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000015.data
+  hashes:
+    binhash: 349456ebf726254704e5504dfaeb6c78
+    md5: b2ff5333dbaf10574ea86417e9682f60
+work/V_sat.0000000015.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000015.meta
+  hashes:
+    binhash: b9a79f4863cda887df47b94c624eb3dd
+    md5: 3642ab7f2e2d8f4c9ffb44b0392ce3e1
+work/V_sat.0000000016.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000016.data
+  hashes:
+    binhash: cd7d22cf7eac1e67351f4c63037a92b5
+    md5: e2369c1d10dd14161c6e1142ffbeea07
+work/V_sat.0000000016.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000016.meta
+  hashes:
+    binhash: 7ed9271b9116126fde4ed35400f760e1
+    md5: 581c64d90eef1adaeb420b6ee68867a6
+work/V_sat.0000000017.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000017.data
+  hashes:
+    binhash: 2a350e3045fb8a238575e0aaf2f78f65
+    md5: 3ed3214561408cc1637fca0728baaa44
+work/V_sat.0000000017.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000017.meta
+  hashes:
+    binhash: d05908913c7777726823eb700912d8b0
+    md5: 2eba6da13035dc68fc79e7ae10953b46
+work/V_sat.0000000018.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000018.data
+  hashes:
+    binhash: ac033c881b093e568943334366b464f5
+    md5: 0d13ca5f3d5cf061a0b50db82642cd22
+work/V_sat.0000000018.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000018.meta
+  hashes:
+    binhash: 94cbc4f89ed8f569b7a96bc727f920c6
+    md5: 58e4dbd29587ad173a3ae25c78f9db4f
+work/V_sat.0000000019.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000019.data
+  hashes:
+    binhash: b1b481503a2f9d29285efd0d2f21906e
+    md5: 400920ccd440725ab2c79a8e4dc409c6
+work/V_sat.0000000019.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000019.meta
+  hashes:
+    binhash: e11e50f2233b0da148e9c0f8b562cf63
+    md5: 46747b73d2359b78236b95db9269a815
+work/V_sat.0000000020.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000020.data
+  hashes:
+    binhash: 1cf763f822d84cf4f42475d468ba2942
+    md5: 4376df683008414ea2dbe7144d79d128
+work/V_sat.0000000020.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000020.meta
+  hashes:
+    binhash: 20448c7054c92130181d2065dc1149c3
+    md5: aeaa58643768213f4efaafbe95ec92ac
+work/V_sat.0000000021.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000021.data
+  hashes:
+    binhash: 146bc761913abeedb4a320e6e69fae33
+    md5: e7898e037a426f8fe31fb951acad24ea
+work/V_sat.0000000021.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000021.meta
+  hashes:
+    binhash: 3c05fb2fd810cf77803865cebd6c2160
+    md5: 8b6a183514bcc18f651e3aceff2eee8a
+work/V_sat.0000000022.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000022.data
+  hashes:
+    binhash: 509843c5651ceade4434bbd09fc347f9
+    md5: b882f2200a508440773aa11a91dffe41
+work/V_sat.0000000022.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000022.meta
+  hashes:
+    binhash: c3c1ee441071c8d52535ea7beaadd040
+    md5: c8585346fec7d3edecb86ea99419e500
+work/V_sat.0000000023.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000023.data
+  hashes:
+    binhash: b6bb04ea2f7f5c32a4c29f52c23532ef
+    md5: cf38e3e202747207e48a27ecde521b45
+work/V_sat.0000000023.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000023.meta
+  hashes:
+    binhash: 9b5f8848dd1da428b1bc9147209c9c27
+    md5: 0210c376a1e0672028abda13f88761af
+work/V_sat.0000000024.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000024.data
+  hashes:
+    binhash: 9ef747860ffd388d65331ac853eb2459
+    md5: 6b83998c3dff7f3c3a6cbadf2b5e7e9c
+work/V_sat.0000000024.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000024.meta
+  hashes:
+    binhash: 8f5c88791c8d0d97361a06864e0f2c93
+    md5: 8f455a61cf5264b55335dc0c41233a0d
+work/V_sat.0000000025.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000025.data
+  hashes:
+    binhash: 2dee02606ced9ba7cebebfbddb3bb9a2
+    md5: c1b2cd9a55f08059443f6346d3853e68
+work/V_sat.0000000025.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000025.meta
+  hashes:
+    binhash: 71e57961526cf17d69e877ce14fc18c0
+    md5: 63416a238ff66a02055c4d557056f85e
+work/V_sat.0000000026.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000026.data
+  hashes:
+    binhash: 85f6f1151f08eeec462147487f98ecd2
+    md5: 2ef84d5669fd57c10415bec6d65de23c
+work/V_sat.0000000026.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000026.meta
+  hashes:
+    binhash: 76757ae6005f2be5e3fd3d68b98b2d34
+    md5: 38d77dd4ce9e4cf00baac322815b30dd
+work/V_sat.0000000027.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000027.data
+  hashes:
+    binhash: de4ac243009db3e5d58f86842e4e6ceb
+    md5: 49da5a6a199bd09c3ae3bfce8b991c47
+work/V_sat.0000000027.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000027.meta
+  hashes:
+    binhash: 4e96d2f5f4e1773c456e00dcb255c2a5
+    md5: 58f9e789da62be3979abe9d4d92d4567
+work/V_sat.0000000028.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000028.data
+  hashes:
+    binhash: 0d8e81f5ee055d8bcedfc99ca145884b
+    md5: 43ec125eff6c6ee6652c60f2c14409e1
+work/V_sat.0000000028.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000028.meta
+  hashes:
+    binhash: b53347adb6f87196d8c96e4aff0feab5
+    md5: 41a691af4991f405ada07747843e70ac
+work/V_sat.0000000029.data:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000029.data
+  hashes:
+    binhash: 2d23a2e3ca9933ff5c960b8773c2e531
+    md5: 1fb651a7efd99508b3fffe859bf5bee2
+work/V_sat.0000000029.meta:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/V_sat.0000000029.meta
+  hashes:
+    binhash: 67124f642df9e2ec18ad9cfcbf045ad3
+    md5: 12887f11c173dff27a2e01d3d07c445c
+work/flt_global_hex_032deg.bin:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/flt_global_hex_032deg.bin
+  hashes:
+    binhash: 6a6bf3d5d281b9bbcb29429ced573129
+    md5: 70032fdb929aa8f16ab8fccfd5b0cab4
+work/flt_global_hex_10deg.bin:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/flt_global_hex_10deg.bin
+  hashes:
+    binhash: 280841a469fc6a39ef3beaaceb5daf80
+    md5: eced84b25da947aef352c9fb34460e14
+work/flt_global_hex_1deg.bin:
+  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/30d/30d_slice_chunk_00000/flt_global_hex_1deg.bin
+  hashes:
+    binhash: 6ace25cb3a3ccded733687ad7ad06821
+    md5: a0fdcbc15ee5822b4b1bd096df090aae
