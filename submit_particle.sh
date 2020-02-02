@@ -34,11 +34,16 @@ do
   cd $globalpath
 
   count=$((count+1))
+
+  cc=0
+  n=1
   # Sleep for 8 hours so the process can be executed, without over queuing PBS.
-  if [ $count -eq 15 ]
+  if [ $cc -eq $n ]
     then
-      echo $count 
+      cc=0
       sleep 1h
+  else
+     cc=$((cc+1))
   fi
   
 done
