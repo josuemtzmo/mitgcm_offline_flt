@@ -5,6 +5,6 @@
 build/
 MIT_LAVD.*
 mitgcm*
-run/work/
-30d*/
-manifests/*
+run/work
+30d_LADV_part_release_*/work
+30d_LADV_part_release_*/archive
