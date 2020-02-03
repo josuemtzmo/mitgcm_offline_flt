@@ -270,10 +270,12 @@ C     total number of fields
          jG=bj+(myYGlobalLo-1)/sNy
 
          DO ip=1,npart_tile(bi,bj)
-            irecord = npart_read+ip+1
+C            irecord = npart_read+ip+1
+            irecord = ip+1
             IF ( ( flt_selectTrajOutp.GE.3 ) ) THEN
               IF ( npart_read.NE.0 ) THEN
-              pirecord=irecord-npart_tile(bi,bj)
+C              pirecord=irecord-npart_tile(bi,bj)
+              pirecord=irecord
               CALL MDS_READVEC_LOC(  fn, fp, ioUnit, 'RL', nFlds,
      O                               tmp2, dummyRS,
      I                               bi, bj, pirecord, myThid )
