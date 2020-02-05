@@ -128,7 +128,7 @@ C--   Calculate position + other fields at float position and fill up IO-buffer
      I                               ix, jy, bi,bj, myThid )
             print*,xx,yy
 
-            CALL MDS_READVEC_LOC( fn, fp, ioUnit,
+            CALL MDS_READVEC_LOC( flt_file, fp, ioUnit,
      &                        'RL', imax, tmp3, dummyRS,
      &                        bi, bj, 1, myThid )
             print*,tmp3(3),tmp3(4)
