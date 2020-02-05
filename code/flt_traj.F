@@ -103,7 +103,6 @@ C--   check buffer size
       ENDIF
 
       IF ( myIter.EQ.nIter0 .OR. flt_selectTrajOutp.LE.0 ) RETURN
-      print*,xx,yy
 C---+----1----+----2----+----3----+----4----+----5----+----6----+----7-|--+----|
 C--   Calculate position + other fields at float position and fill up IO-buffer
 
@@ -122,8 +121,11 @@ C--   Calculate position + other fields at float position and fill up IO-buffer
 
             ix = ipart(ip,bi,bj)
             jy = jpart(ip,bi,bj)
+            print*,'Particle',ip
+            print*,ix,jy
             CALL FLT_MAP_IJLOCAL2XY( xx, yy,
      I                               ix, jy, bi,bj, myThid )
+            print*,xx,yy
             zz = FLT_MAP_K2R( kpart(ip,bi,bj),bi,bj,myThid )
             kp = NINT(kpart(ip,bi,bj))
             tmp(1) = npart(ip,bi,bj)
