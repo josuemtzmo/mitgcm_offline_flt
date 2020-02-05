@@ -123,6 +123,7 @@ C--   Calculate position + other fields at float position and fill up IO-buffer
             jy = jpart(ip,bi,bj)
             print*,'Particle',ip
             print*,ix,jy
+            print*,bi,bj
             CALL FLT_MAP_IJLOCAL2XY( xx, yy,
      I                               ix, jy, bi,bj, myThid )
             print*,xx,yy
