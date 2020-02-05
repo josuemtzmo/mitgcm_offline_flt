@@ -121,23 +121,24 @@ C--   Calculate position + other fields at float position and fill up IO-buffer
 
             ix = ipart(ip,bi,bj)
             jy = jpart(ip,bi,bj)
-            print*,'Particle',ip
-            print*,ix,jy
-            print*,xx,yy
+C            print*,'Particle',ip
+C            print*,ix,jy
+C            print*,xx,yy
             CALL FLT_MAP_IJLOCAL2XY( xx, yy,
      I                               ix, jy, bi,bj, myThid )
-            print*,xx,yy
+C            print*,xx,yy
+C            print*,flt_file,readBinaryPrec
+            CALL MDS_READVEC_LOC( flt_file, readBinaryPrec, ioUnit,
+     &                        'RL', 9, tmp3, dummyRS,
+     &                        0, 0, ip+1, myThid )
 
-            CALL MDS_READVEC_LOC( flt_file, fp, ioUnit,
-     &                        'RL', imax, tmp3, dummyRS,
-     &                        bi, bj, 1, myThid )
-            print*,tmp3(3),tmp3(4)
+C            CLOSE( ioUnit )
             zz = FLT_MAP_K2R( kpart(ip,bi,bj),bi,bj,myThid )
             kp = NINT(kpart(ip,bi,bj))
             tmp(1) = npart(ip,bi,bj)
             tmp(2) = myTime
-            tmp(3) = xx
-            tmp(4) = yy
+            tmp(3) = tmp3(3)
+            tmp(4) = tmp3(4)
             tmp(5) = zz
             tmp(6) = ix + i0x
             tmp(7) = jy + j0y
