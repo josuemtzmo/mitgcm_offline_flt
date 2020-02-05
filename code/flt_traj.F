@@ -50,7 +50,7 @@ C     !LOCAL VARIABLES:
       _RL vort3(1-OLx:sNx+OLx,1-OLy:sNy+OLy)
       INTEGER imax, iG, jG
       PARAMETER (imax=16)
-      _RL tmp(imax), tmp2(imax)
+      _RL tmp(imax), tmp2(imax), tmp3(9)
       _RL npart_read, npart_times
       _RS dummyRS(1)
       INTEGER fp, ioUnit, irecord, pirecord
@@ -123,10 +123,15 @@ C--   Calculate position + other fields at float position and fill up IO-buffer
             jy = jpart(ip,bi,bj)
             print*,'Particle',ip
             print*,ix,jy
-            print*,bi,bj
+            print*,xx,yy
             CALL FLT_MAP_IJLOCAL2XY( xx, yy,
      I                               ix, jy, bi,bj, myThid )
             print*,xx,yy
+
+            CALL MDS_READVEC_LOC( fn, fp, ioUnit,
+     &                        'RL', imax, tmp3, dummyRS,
+     &                        bi, bj, 1, myThid )
+            print*,tmp3(3),tmp3(4)
             zz = FLT_MAP_K2R( kpart(ip,bi,bj),bi,bj,myThid )
             kp = NINT(kpart(ip,bi,bj))
             tmp(1) = npart(ip,bi,bj)
