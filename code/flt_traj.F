@@ -44,7 +44,6 @@ C     !FUNCTIONS:
 C     !LOCAL VARIABLES:
       INTEGER bi, bj, nFlds
       INTEGER ip, kp, ii, i, j
-      _RL x0,y0
       _RL ix, jy, i0x, j0y, xx, yy, zz
       _RL uu, vv, tt, ss, pp, ttke, vort
       _RL KE(1-OLx:sNx+OLx,1-OLy:sNy+OLy,Nr,nSx,nSy)
@@ -71,7 +70,7 @@ C--   set number of fields to write
 C--   Modified section to write KE and vorticity along the particle track.
       IF ( flt_selectTrajOutp.GE.3 ) THEN 
         nFlds = nFlds + 3
-        KE = ((uVel*uVel) + (vVel*vVel))
+        KE = 1/2*((uVel*uVel) + (vVel*vVel))
         DO bj=myByLo(myThid),myByHi(myThid)
           DO bi=myBxLo(myThid),myBxHi(myThid)
             DO j=2,sNy
@@ -104,7 +103,7 @@ C--   check buffer size
       ENDIF
 
       IF ( myIter.EQ.nIter0 .OR. flt_selectTrajOutp.LE.0 ) RETURN
-
+      print*,xx,yy
 C---+----1----+----2----+----3----+----4----+----5----+----6----+----7-|--+----|
 C--   Calculate position + other fields at float position and fill up IO-buffer
 
@@ -123,16 +122,14 @@ C--   Calculate position + other fields at float position and fill up IO-buffer
 
             ix = ipart(ip,bi,bj)
             jy = jpart(ip,bi,bj)
-            x0 = xx
-            y0 = yy
             CALL FLT_MAP_IJLOCAL2XY( xx, yy,
      I                               ix, jy, bi,bj, myThid )
             zz = FLT_MAP_K2R( kpart(ip,bi,bj),bi,bj,myThid )
             kp = NINT(kpart(ip,bi,bj))
             tmp(1) = npart(ip,bi,bj)
             tmp(2) = myTime
-            tmp(3) = x0
-            tmp(4) = y0
+            tmp(3) = xx
+            tmp(4) = yy
             tmp(5) = zz
             tmp(6) = ix + i0x
             tmp(7) = jy + j0y

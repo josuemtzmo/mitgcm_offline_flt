@@ -1,5 +1,5 @@
 ncpus: 1
-mem: 50GB
+mem: 10GB
 walltime: 01:00:00
 jobname: MIT_LAVD
 project: x77
