@@ -94,10 +94,11 @@ C               Look at file mon_vort3.F
      &                       0, 0, 1, myThid )
 
       npart_read = NINT(tmp3(1))
-
+      print*,npart_read
       DO ip=1,npart_read
         DO bj = 1,nSy
           DO bi = 1,nSx
+            print*,ip,bj,bi
             CALL MDS_READVEC_LOC( flt_file, readBinaryPrec, ioUnit,
      &                           'RL', imax3, tmp3, dummyRS,
      &                            0, 0, ip+1, myThid )
