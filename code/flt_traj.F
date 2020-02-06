@@ -89,6 +89,8 @@ C               Look at file mon_vort3.F
         ENDDO
       ENDIF
 
+      ioUnit = -2
+      
       CALL MDS_READVEC_LOC( flt_file, readBinaryPrec, ioUnit,
      &                      'RL', imax3, tmp3, dummyRS,
      &                       0, 0, 1, myThid )
