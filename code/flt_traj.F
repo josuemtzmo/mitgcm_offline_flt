@@ -100,9 +100,11 @@ C               Look at file mon_vort3.F
             CALL MDS_READVEC_LOC( flt_file, readBinaryPrec, ioUnit,
      &                           'RL', 9, tmp3, dummyRS,
      &                            0, 0, ip+1, myThid )
+
             xinit(npart_tile(bi,bj),bi,bj)=tmp3(3)
             yinit(npart_tile(bi,bj),bi,bj)=tmp3(4)
 
+            print*,"PASS"
           ENDDO
         ENDDO
       ENDDO
