@@ -155,6 +155,7 @@ C            print*,xx,yy
 C            print*,flt_file,readBinaryPrec
 
 C            CLOSE( ioUnit )
+            print*,xinit(ip,bi,bj),yinit(ip,bi,bj)
             zz = FLT_MAP_K2R( kpart(ip,bi,bj),bi,bj,myThid )
             kp = NINT(kpart(ip,bi,bj))
             tmp(1) = npart(ip,bi,bj)
