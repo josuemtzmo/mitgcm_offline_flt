@@ -48,10 +48,10 @@ C     !LOCAL VARIABLES:
       _RL uu, vv, tt, ss, pp, ttke, vort
       _RL KE(1-OLx:sNx+OLx,1-OLy:sNy+OLy,Nr,nSx,nSy)
       _RL vort3(1-OLx:sNx+OLx,1-OLy:sNy+OLy)
-      INTEGER imax, imax3, iG, jG
+      INTEGER imax, iG, jG
       PARAMETER (imax=16)
-      PARAMETER (imax3=9)
-      _RL tmp(imax), tmp2(imax), tmp3(imax3)
+C      PARAMETER (imax3=9)
+      _RL tmp(imax), tmp2(imax)
       _RL npart_read, npart_times
       _RS dummyRS(1)
       INTEGER fp, ioUnit, irecord, pirecord
@@ -89,30 +89,30 @@ C               Look at file mon_vort3.F
         ENDDO
       ENDIF
 
-      ioUnit = -2
-      
-      CALL MDS_READVEC_LOC( flt_file, readBinaryPrec, ioUnit,
-     &                      'RL', imax3, tmp3, dummyRS,
-     &                       0, 0, 1, myThid )
-
-      npart_read = NINT(tmp3(1))
-      print*,npart_read
-      DO ip=1,npart_read
-        DO bj = 1,nSy
-          DO bi = 1,nSx
-            print*,ip,bj,bi
-            CALL MDS_READVEC_LOC( flt_file, readBinaryPrec, ioUnit,
-     &                           'RL', imax3, tmp3, dummyRS,
-     &                            0, 0, ip+1, myThid )
-
-            xinit(npart_tile(bi,bj),bi,bj)=tmp3(3)
-            yinit(npart_tile(bi,bj),bi,bj)=tmp3(4)
-
-            print*,"PASS"
-          ENDDO
-        ENDDO
-      ENDDO
-      CLOSE( ioUnit )
+c      ioUnit = -2
+c      
+c      CALL MDS_READVEC_LOC( flt_file, readBinaryPrec, ioUnit,
+c     &                      'RL', imax3, tmp3, dummyRS,
+c     &                       0, 0, 1, myThid )
+c
+c      npart_read = NINT(tmp3(1))
+c      print*,npart_read
+c      DO ip=1,npart_read
+c        DO bj = 1,nSy
+c          DO bi = 1,nSx
+c            print*,ip,bj,bi
+c            CALL MDS_READVEC_LOC( flt_file, readBinaryPrec, ioUnit,
+c     &                           'RL', imax3, tmp3, dummyRS,
+c     &                            0, 0, ip+1, myThid )
+c
+c            xinit(npart_tile(bi,bj),bi,bj)=tmp3(3)
+c            yinit(npart_tile(bi,bj),bi,bj)=tmp3(4)
+c
+c            print*,"PASS"
+c          ENDDO
+c        ENDDO
+c      ENDDO
+c      CLOSE( ioUnit )
 C--   check buffer size
       IF ( nFlds.GT.fltBufDim ) THEN
          _BEGIN_MASTER(myThid)
