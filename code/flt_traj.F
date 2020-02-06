@@ -48,9 +48,10 @@ C     !LOCAL VARIABLES:
       _RL uu, vv, tt, ss, pp, ttke, vort
       _RL KE(1-OLx:sNx+OLx,1-OLy:sNy+OLy,Nr,nSx,nSy)
       _RL vort3(1-OLx:sNx+OLx,1-OLy:sNy+OLy)
-      INTEGER imax, iG, jG
+      INTEGER imax, imax3, iG, jG
       PARAMETER (imax=16)
-      _RL tmp(imax), tmp2(imax), tmp3(9)
+      PARAMETER (imax3=9)
+      _RL tmp(imax), tmp2(imax), tmp3(imax3)
       _RL npart_read, npart_times
       _RS dummyRS(1)
       INTEGER fp, ioUnit, irecord, pirecord
@@ -89,7 +90,7 @@ C               Look at file mon_vort3.F
       ENDIF
 
       CALL MDS_READVEC_LOC( flt_file, readBinaryPrec, ioUnit,
-     &                      'RL', 9, tmp3, dummyRS,
+     &                      'RL', imax3, tmp3, dummyRS,
      &                       0, 0, 1, myThid )
 
       npart_read = NINT(tmp3(1))
@@ -98,7 +99,7 @@ C               Look at file mon_vort3.F
         DO bj = 1,nSy
           DO bi = 1,nSx
             CALL MDS_READVEC_LOC( flt_file, readBinaryPrec, ioUnit,
-     &                           'RL', 9, tmp3, dummyRS,
+     &                           'RL', imax3, tmp3, dummyRS,
      &                            0, 0, ip+1, myThid )
 
             xinit(npart_tile(bi,bj),bi,bj)=tmp3(3)
