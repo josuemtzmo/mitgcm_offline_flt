@@ -1,11 +1,6 @@
 format: yamanifest
 version: 1.0
 ---
-work/flt_global_hex_010deg.bin:
-  fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/flt_global_hex_010deg.bin
-  hashes:
-    binhash: 003e2910dd6bfba3f842195f4beef210
-    md5: 381c9c554792c8ef904f0bba444ad7b9
 work/flt_global_hex_012deg.bin:
   fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/flt_global_hex_012deg.bin
   hashes:
@@ -19,8 +14,8 @@ work/flt_global_hex_015deg.bin:
 work/flt_global_hex_032deg.bin:
   fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/flt_global_hex_032deg.bin
   hashes:
-    binhash: 683f0579cf33d2c48619f0212adab07e
-    md5: 2364279001da74370a495ad32f9bfd75
+    binhash: eca17c3e6f1803957bb645d38f7c92a4
+    md5: 0f42eb1b72f5e0d91652ca906090bb17
 work/flt_global_hex_05deg.bin:
   fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/flt_global_hex_05deg.bin
   hashes:
@@ -29,8 +24,8 @@ work/flt_global_hex_05deg.bin:
 work/flt_global_hex_10deg.bin:
   fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/flt_global_hex_10deg.bin
   hashes:
-    binhash: 280841a469fc6a39ef3beaaceb5daf80
-    md5: eced84b25da947aef352c9fb34460e14
+    binhash: e3eddd1ee5eb0216ac97c9e8d1e0f4aa
+    md5: 72d7a98fa1a4f1cecdd69307fe0ffa44
 work/flt_global_hex_1deg.bin:
   fullpath: /scratch/x77/jm5970/mitgcm/input/global_particle_release/flt_global_hex_1deg.bin
   hashes:

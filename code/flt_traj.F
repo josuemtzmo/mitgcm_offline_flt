@@ -146,16 +146,9 @@ C--   Calculate position + other fields at float position and fill up IO-buffer
 
             ix = ipart(ip,bi,bj)
             jy = jpart(ip,bi,bj)
-C            print*,'Particle',ip
-C            print*,ix,jy
-C            print*,xx,yy
             CALL FLT_MAP_IJLOCAL2XY( xx, yy,
      I                               ix, jy, bi,bj, myThid )
-C            print*,xx,yy
-C            print*,flt_file,readBinaryPrec
 
-C            CLOSE( ioUnit )
-            print*,xinit(ip,bi,bj),yinit(ip,bi,bj)
             zz = FLT_MAP_K2R( kpart(ip,bi,bj),bi,bj,myThid )
             kp = NINT(kpart(ip,bi,bj))
             tmp(1) = npart(ip,bi,bj)

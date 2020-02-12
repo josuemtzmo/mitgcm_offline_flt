@@ -1,10 +1,13 @@
 ncpus: 1
-mem: 50GB
-walltime: 07:00:00
+mem: 44GB
+walltime: 04:00:00
 jobname: PR_LAV_{0}
 project: x77
-queue: express
-qsub_flags: -lother=hyperthread -W umask=027 -l storage=gdata/v45+scratch/v45+gdata/hh5+gdata/x77
+queue: normal
+
+storage:
+      gdata:
+          - v45
 
 model: mitgcm
 shortpath: /scratch/x77
