@@ -4651,3 +4651,914 @@ Loading exe manifest: manifests/exe.yaml
 payu: Found modules in /opt/Modules/v4.3.0
 qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00132 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
 Sleep submission
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00133
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00133/work
+1555737.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00133 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00134
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00134/work
+1555738.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00134 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00135
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00135/work
+1555739.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00135 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00136
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00136/work
+1555749.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00136 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00137
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00137/work
+1555754.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00137 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00138
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00138/work
+1555759.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00138 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00139
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00139/work
+1555768.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00139 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00140
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00140/work
+1555774.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00140 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00141
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00141/work
+1555782.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00141 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00142
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00142/work
+1555791.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00142 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00143
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00143/work
+1555796.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00143 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00144
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00144/work
+1555797.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00144 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00145
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00145/work
+1555799.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00145 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00146
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00146/work
+1555800.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00146 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00147
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00147/work
+1555811.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00147 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00148
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00148/work
+1555813.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00148 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00149
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00149/work
+1555814.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00149 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00150
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00150/work
+1555819.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00150 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00151
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00151/work
+1555821.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00151 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00152
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00152/work
+1555822.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00152 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00153
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00153/work
+1555824.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00153 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00154
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00154/work
+1555826.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00154 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00155
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00155/work
+1555833.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00155 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00156
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00156/work
+1555836.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00156 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00157
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00157/work
+1555837.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00157 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Setting up mitgcm
+  start time: 0.0
+  end time:   2592000.0
+  niter0 :    0
+  ntimesteps: 30
+  dt:         86400.0
+  end - start:    2592000.0
+  dt * ntimeteps: 2592000.0
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 121 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+laboratory path:  /scratch/x77/jm5970/mitgcm
+binary path:  /scratch/x77/jm5970/mitgcm/bin
+input path:  /scratch/x77/jm5970/mitgcm/input
+work path:  /scratch/x77/jm5970/mitgcm/work
+archive path:  /scratch/x77/jm5970/mitgcm/archive
+Removing work path /scratch/x77/jm5970/mitgcm/work/30d_LADV_part_release_00158
+Removing symlink /home/156/jm5970/expts/mitgcm_offline_flt/30d_LADV_part_release_00158/work
+1555839.gadi-pbs
+/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/lib/python3.7/site-packages/yamanifest/manifest.py:99: YAMLLoadWarning: calling yaml.load_all() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  self.header, self.data = yaml.load_all(file)
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P x77 -l walltime=04:00:00 -l ncpus=1 -l mem=44GB -N PR_LAV_00158 -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin,PAYU_CURRENT_RUN=0,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/v45+scratch/x77 -- /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/python /g/data3/hh5/public/apps/miniconda3/envs/analysis3-20.01/bin/payu-run
+Sleep submission
