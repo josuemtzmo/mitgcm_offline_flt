@@ -14,7 +14,7 @@ particle_grid='flt_global_hex_032deg.bin'
 input_path='/scratch/x77/jm5970/mitgcm/input/global_particle_release'
 
 # Loop for every initialization of the particle release:
-for tt in `seq 3 320`
+for tt in `seq 0 2`
 do
   # Create folder for running experiment.
   folder="30d_LADV_part_release_$(printf %05d ${tt%})"
