@@ -2,7 +2,7 @@
 *.meta
 *.data
 *.bk
-build/
+build*/
 MIT_LAVD.*
 mitgcm*
 run/work
@@ -10,3 +10,8 @@ run/work
 30d_LADV_part_release_*/archive
 30d_LADV_part_release_*
 30d_LADV_part_release_*/
+*d/
+code_tracks/
+run/MIT*
+nohup.*
+*.txt

@@ -8,27 +8,30 @@ globalpath=`pwd`
 count=0
 cc=0
 n=25
+nr=106
 particle_grid='flt_global_hex_032deg.bin'
+expt='90d'
+
 
 # input path
 input_path='/scratch/x77/jm5970/mitgcm/input/global_particle_release'
 
 # Loop for every initialization of the particle release:
-for tt in `seq 0 2`
+for tt in `seq 1 $nr`
 do
   # Create folder for running experiment.
-  folder="30d_LADV_part_release_$(printf %05d ${tt%})"
+  folder="${expt}/${expt}_LADV_part_release_$(printf %05d ${tt%})"
   mkdir $folder
   # Modify corresponding files to setup the experiment.
-  sed s-{0}-$(printf %05d ${tt%})-g config_sed.yaml > "$folder/config.yaml"
+  sed -e "s-{0}-$(printf %05d ${tt%})-g;s-{1}-$expt-g" config_sed.yaml > "$folder/config.yaml"
   cp ./input/* $folder/.
   sed s-input_off-'.'-g input/data.off > "$folder/data.off" 
   sed s-flt_global_hex_10deg.bin-${particle_grid}-g input/data.flt > "$folder/data.flt" 
-  sed s-{0}-$(printf %05d ${tt%})-g config_sed.yaml > "$folder/config.yaml"
   sed s-{0}-30d_slice_chunk_$(printf %05d ${tt%})-g input/clear_archive.sh > "$folder/clear_archive.sh"
   cd $folder
   
-  ln -s $input_path/${particle_grid} $input_path/30d/30d_slice_chunk_$(printf %05d ${tt%})/
+#  ln -s $input_path/${particle_grid} $input_path/${expt}/${expt}_30t_chunk_$(printf %05d ${tt%})/
+  ln -s $input_path/${particle_grid} $input_path/${expt}/${expt}_slice_chunk_$(printf %05d ${tt%})/
 
   # Initiate payu setup
   payu setup && payu sweep

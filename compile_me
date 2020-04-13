@@ -7,7 +7,7 @@ module load netcdf/4.7.1
 code_root=/home/156/jm5970/expts/mitgcm_offline_flt/code
 dir_root=/g/data4/x77/jm5970/MITgcm
 
-cd /home/156/jm5970/expts/mitgcm_offline_flt/build 
+cd /home/156/jm5970/expts/mitgcm_offline_flt/build_fun
 
 rm -r *
 
