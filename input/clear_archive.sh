@@ -5,7 +5,7 @@ rm *.nc
 
 rm *profile*.*ta
 
-archive_path='/g/data/v45/jm5970/particle_release/90d'
+archive_path='/g/data/v45/jm5970/particle_release/{1}'
 experiment_path={0}
 
 mkdir $archive_path/$experiment_path

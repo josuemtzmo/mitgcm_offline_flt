@@ -8,9 +8,10 @@ globalpath=`pwd`
 count=0
 cc=0
 n=25
-nr=106
+nr=1
 particle_grid='flt_global_hex_032deg.bin'
-expt='90d'
+freq=90
+expt="${freq}d"
 
 
 # input path
@@ -25,15 +26,17 @@ do
   # Modify corresponding files to setup the experiment.
   sed -e "s-{0}-$(printf %05d ${tt%})-g;s-{1}-$expt-g" config_sed.yaml > "$folder/config.yaml"
   cp ./input/* $folder/.
-  sed s-input_off-'.'-g input/data.off > "$folder/data.off" 
+  sed -e "s-{0}-${freq}-g" input/data > "$folder/data" 
+  sed -e "s-{0}-.-g;s-{1}-$(((freq-1)*86400))-g" input/data.off > "$folder/data.off" 
   sed s-flt_global_hex_10deg.bin-${particle_grid}-g input/data.flt > "$folder/data.flt" 
-  sed s-{0}-30d_slice_chunk_$(printf %05d ${tt%})-g input/clear_archive.sh > "$folder/clear_archive.sh"
+  sed -e "s-{0}-30d_slice_chunk_$(printf %05d ${tt%})-g;s-{1}-$expt-g" input/clear_archive.sh > "$folder/clear_archive.sh"
   cd $folder
   
 #  ln -s $input_path/${particle_grid} $input_path/${expt}/${expt}_30t_chunk_$(printf %05d ${tt%})/
   ln -s $input_path/${particle_grid} $input_path/${expt}/${expt}_slice_chunk_$(printf %05d ${tt%})/
 
   # Initiate payu setup
+  payu sweep
   payu setup && payu sweep
   
   # Run the experiment. 
