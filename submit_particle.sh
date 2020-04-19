@@ -8,7 +8,7 @@ globalpath=`pwd`
 count=0
 cc=0
 n=25
-nr=1
+nr=10
 particle_grid='flt_global_hex_032deg.bin'
 freq=90
 expt="${freq}d"
@@ -18,13 +18,13 @@ expt="${freq}d"
 input_path='/scratch/x77/jm5970/mitgcm/input/global_particle_release'
 
 # Loop for every initialization of the particle release:
-for tt in `seq 1 $nr`
+for tt in `seq 0 $nr`
 do
   # Create folder for running experiment.
   folder="${expt}/${expt}_LADV_part_release_$(printf %05d ${tt%})"
   mkdir $folder
   # Modify corresponding files to setup the experiment.
-  sed -e "s-{0}-$(printf %05d ${tt%})-g;s-{1}-$expt-g" config_sed.yaml > "$folder/config.yaml"
+  sed -e "s-{0}-$(printf %05d ${tt%})-g;s-{1}-$expt-g;s-{2}-$(printf %02d $((3*freq/30)))-g" config_sed.yaml > "$folder/config.yaml"
   cp ./input/* $folder/.
   sed -e "s-{0}-${freq}-g" input/data > "$folder/data" 
   sed -e "s-{0}-.-g;s-{1}-$(((freq-1)*86400))-g" input/data.off > "$folder/data.off" 
@@ -40,7 +40,7 @@ do
   payu setup && payu sweep
   
   # Run the experiment. 
-  payu run -i 0  
+#  payu run -i 0  
 
   cd $globalpath
 
