@@ -6,6 +6,6 @@
  flt_int_prof =  10800.,
  flt_noise    =  0.0,
  flt_file     =  'flt_global_hex_032deg.bin',
- flt_selectProfOutp = 2,
+ flt_selectProfOutp = 0,
  flt_selectTrajOutp = 3,
  &
